@@ -316,7 +316,13 @@ nav {
     position: relative;
     z-index: 2;
 }
-
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--spacing-m);
+    }
+}
 .hero-text {
     flex: 1;
 }
