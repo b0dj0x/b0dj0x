@@ -139,31 +139,6 @@ nav:hover{border-color:rgba(255,34,68,.3);box-shadow:0 0 30px rgba(255,34,68,.08
 .nav-cta:hover{background:var(--neon-red);color:var(--c0);box-shadow:0 0 20px rgba(255,34,68,.3)}
 .hamburger{display:none;flex-direction:column;gap:4px;padding:6px;cursor:none}
 .hamburger span{width:18px;height:1.5px;background:var(--neon-red);transition:all .3s}
-@media(max-width:768px){
-  nav{top:12px;right:12px;left:12px;transform:none;border-radius:12px;flex-wrap:wrap}
-  .nav-links{display:none;width:100%;padding:8px 0 4px;flex-direction:column;gap:4px}
-  .nav-links.open{display:flex}
-  .hamburger{display:flex;margin-left:auto}
-  .nav-cta{display:none}
-  #hero{height:auto;min-height:100vh;padding:100px 0 40px;display:flex;flex-direction:column;justify-content:center}
-  .hero-content{padding:0 20px;margin-left:0;text-align:center;max-width:100%;z-index:10;width:100%}
-  .hero-name{font-size:clamp(36px,10vw,56px);letter-spacing:-1px}
-  .hero-name .glitch,.hero-name .glitch2{display:none}
-  .hero-tag{justify-content:center;font-size:9px;letter-spacing:2px}
-  .hero-tag::before{display:none}
-  .hero-title{font-size:clamp(10px,3vw,14px);letter-spacing:2px;margin-bottom:16px}
-  .typing-wrapper{font-size:clamp(12px,3vw,18px);min-height:30px;margin-bottom:20px}
-  .hero-desc{max-width:100%;font-size:clamp(12px,3vw,15px);margin-bottom:24px;line-height:1.6}
-  .hero-btns{justify-content:center;gap:12px}
-  .hero-stats{position:relative;bottom:auto;left:auto;right:auto;justify-content:center;flex-wrap:wrap;gap:12px;padding:20px;margin-top:16px}
-  .hero-stat{padding:10px 14px}
-  .hero-stat-num{font-size:18px}
-  .hero-stat-lbl{font-size:9px}
-  .scroll-hint{display:none}
-  #three-canvas{display:none}
-  .glow-orb{display:none}
-  section .grid-bg{display:none}
-}
 
 /* ── HERO ── */
 #hero{position:relative;height:100vh;min-height:700px;display:flex;align-items:center;overflow:hidden;isolation:isolate}
@@ -543,6 +518,37 @@ footer{background:var(--c0);border-top:1px solid var(--glass-border);padding:48p
 
 /* ── MATRIX RAIN OVERLAY ── */
 .matrix-rain{position:fixed;top:0;left:0;right:0;bottom:0;pointer-events:none;z-index:0;opacity:.02}
+
+/* ── MOBILE (must be LAST to override desktop) ── */
+@media(max-width:768px){
+  nav{top:12px;right:12px;left:12px;transform:none;border-radius:12px;flex-wrap:wrap}
+  .nav-links{display:none;width:100%;padding:8px 0 4px;flex-direction:column;gap:4px}
+  .nav-links.open{display:flex}
+  .hamburger{display:flex;margin-left:auto}
+  .nav-cta{display:none}
+  #hero{height:auto!important;min-height:100vh!important;padding:100px 0 40px!important;display:flex!important;flex-direction:column!important;justify-content:center!important}
+  .hero-content{padding:0 20px!important;margin-left:0!important;text-align:center!important;max-width:100%!important;z-index:10!important;width:100%!important}
+  .hero-name{font-size:clamp(36px,10vw,56px)!important;letter-spacing:-1px!important;line-height:1.1!important}
+  .hero-name .name-text{-webkit-text-fill-color:#fff!important;background:none!important;color:#fff!important}
+  .hero-name .glitch,.hero-name .glitch2{display:none!important}
+  .hero-tag{justify-content:center!important;font-size:9px!important;letter-spacing:2px!important}
+  .hero-tag::before{display:none!important}
+  .hero-title{font-size:clamp(10px,3vw,14px)!important;letter-spacing:2px!important;margin-bottom:16px!important}
+  .typing-wrapper{font-size:clamp(12px,3vw,18px)!important;min-height:30px!important;margin-bottom:20px!important}
+  .hero-desc{max-width:100%!important;font-size:clamp(12px,3vw,15px)!important;margin-bottom:24px!important;line-height:1.6!important}
+  .hero-btns{justify-content:center!important;gap:12px!important}
+  .hero-stats{position:relative!important;bottom:auto!important;left:auto!important;right:auto!important;justify-content:center!important;flex-wrap:wrap!important;gap:12px!important;padding:20px!important;margin-top:16px!important}
+  .hero-stat{padding:10px 14px!important}
+  .hero-stat-num{font-size:18px!important}
+  .hero-stat-lbl{font-size:9px!important}
+  .scroll-hint{display:none!important}
+  #three-canvas{display:none!important}
+  .glow-orb{display:none!important}
+  section .grid-bg{display:none!important}
+  #hex-canvas{display:none!important}
+  .container{padding:0 16px!important}
+  section{padding:60px 0!important}
+}
 </style>
 </head>
 <body>
