@@ -145,15 +145,24 @@ nav:hover{border-color:rgba(255,34,68,.3);box-shadow:0 0 30px rgba(255,34,68,.08
   .nav-links.open{display:flex}
   .hamburger{display:flex;margin-left:auto}
   .nav-cta{display:none}
-  .hero-content{padding:0 20px;margin-left:0;text-align:center;max-width:100%;z-index:10}
-  .hero-name{font-size:clamp(40px,12vw,72px)}
-  .hero-tag{justify-content:center}
+  #hero{height:auto;min-height:100vh;padding:100px 0 40px;display:flex;flex-direction:column;justify-content:center}
+  .hero-content{padding:0 20px;margin-left:0;text-align:center;max-width:100%;z-index:10;width:100%}
+  .hero-name{font-size:clamp(36px,10vw,56px);letter-spacing:-1px}
+  .hero-name .glitch,.hero-name .glitch2{display:none}
+  .hero-tag{justify-content:center;font-size:9px;letter-spacing:2px}
   .hero-tag::before{display:none}
-  .hero-desc{max-width:100%}
-  .hero-btns{justify-content:center}
-  .hero-stats{position:relative;bottom:auto;left:auto;right:auto;justify-content:center;flex-wrap:wrap;gap:16px;padding:24px 20px;margin-top:24px}
-  .hero-stat{padding:16px}
-  .hero-stat-num{font-size:24px}
+  .hero-title{font-size:clamp(10px,3vw,14px);letter-spacing:2px;margin-bottom:16px}
+  .typing-wrapper{font-size:clamp(12px,3vw,18px);min-height:30px;margin-bottom:20px}
+  .hero-desc{max-width:100%;font-size:clamp(12px,3vw,15px);margin-bottom:24px;line-height:1.6}
+  .hero-btns{justify-content:center;gap:12px}
+  .hero-stats{position:relative;bottom:auto;left:auto;right:auto;justify-content:center;flex-wrap:wrap;gap:12px;padding:20px;margin-top:16px}
+  .hero-stat{padding:10px 14px}
+  .hero-stat-num{font-size:18px}
+  .hero-stat-lbl{font-size:9px}
+  .scroll-hint{display:none}
+  #three-canvas{display:none}
+  .glow-orb{display:none}
+  section .grid-bg{display:none}
 }
 
 /* ── HERO ── */
