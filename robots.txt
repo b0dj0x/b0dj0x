@@ -1,0 +1,13 @@
+# robots.txt - https://b0dj0x.cc
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://b0dj0x.cc/sitemap.xml
+
+# Disallow admin/system paths
+Disallow: /assets/
+Disallow: /*.json$
+
+# Crawl-delay (optional, for polite bots)
+Crawl-delay: 1
