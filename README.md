@@ -4,7 +4,7 @@
 
 # **B 0 d j 0 x**
 
-### Red Team Operator · Bug Bounty Hunter · Cybersecurity Engineer
+### Red Team Operator · Bug Bounty Hunter · CEO w0lfr00t & w0lfr00tlabs
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=FF2244&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=110&lines=Red+Team+Operator;Bug+Bounty+Hunter;Ethical+Hacker;CTF+Player;Security+Researcher)
 
@@ -22,7 +22,7 @@
 
 | | |
 |---|---|
-| 🎯 **Role** | Red Team Operator & Bug Bounty Hunter |
+| 🎯 **Role** | CEO w0lfr00t & w0lfr00tlabs · Red Team Operator · Bug Bounty Hunter |
 | 🏆 **Ranking** | **Top 1%** on TryHackMe globally |
 | 🐛 **CVEs** | CVE-2025-0133 (Microsoft) |
 | 🛠 **Focus** | Offensive Security, Web App Pentesting, OSINT |
@@ -57,7 +57,7 @@
 
 ---
 
-## 📂 **Security Projects**
+## 📂 **Security Projects (22+ Tools)**
 
 <div align="center">
 
@@ -67,6 +67,29 @@
 | [**b0dj0xscn**](https://github.com/b0dj0x/b0dj0xscn) | High-performance Python Port Scanner | `Python` `Socket` |
 | [**b0g0x**](https://github.com/b0dj0x/b0g0x) | Domain Vulnerability Scanner | `Bash` `Web Sec` |
 | [**Black Book**](https://github.com/b0dj0x/black-book) | Cybersecurity Arsenal & Reference | `Bash` `Python` `Red Team` |
+| [**SubPhisher**](https://github.com/b0dj0x/subphisher) | Subdomain Takeover Scanner (40+ fingerprints) | `Python` `DNS` |
+| [**JWTkiller**](https://github.com/b0dj0x/jwtkiller) | JWT Cracker, Forger & Sniffer | `Python` `JWT` |
+| [**SSRFceptor**](https://github.com/b0dj0x/ssrfceptor) | Blind SSRF Detector (30+ OOB payloads) | `Python` `SSRF` |
+| [**GraphQLploit**](https://github.com/b0dj0x/graphqlploit) | GraphQL Introspection Exploiter | `Python` `GraphQL` |
+| [**SubEnum**](https://github.com/b0dj0x/subenum) | Subdomain Enumeration (20+ sources) | `Python` `DNS` |
+| [**CORSbomber**](https://github.com/b0dj0x/corsbomber) | CORS Misconfiguration Scanner (40+ mutations) | `Python` `CORS` |
+| [**WAFNuker**](https://github.com/b0dj0x/wafnuker) | WAF Detection & Bypass (16 WAFs, 150+ payloads) | `Python` `WAF` |
+| [**Log4jScan**](https://github.com/b0dj0x/log4jscan) | Log4Shell Scanner (30 JNDI payloads) | `Python` `CVE` |
+| [**APIThief**](https://github.com/b0dj0x/apithief) | REST/GraphQL API Discovery (21 auth bypass) | `Python` `API` |
+| [**FaceTracer**](https://github.com/b0dj0x/facetracer) | Reverse Image Search (Trace.moe, SauceNAO) | `Python` `OSINT` |
+| [**EmailPhantom**](https://github.com/b0dj0x/emailphantom) | Email Recon (26+ OSINT sources) | `Python` `Email` |
+| [**UserReaper**](https://github.com/b0dj0x/userreaper) | Username Harvester (656 platforms) | `Python` `OSINT` |
+| [**DomainGhost**](https://github.com/b0dj0x/domainghost) | Domain Recon (WHOIS, DNS, Tech Stack) | `Python` `Domain` |
+| [**LeakHunter**](https://github.com/b0dj0x/leakhunter) | Threat Actor Intel (12 APT groups) | `Python` `APT` |
+| [**CarIntel**](https://github.com/b0dj0x/carintel) | Vehicle OSINT (VIN, License Plate) | `Python` `VIN` |
+| [**CryptoTracker**](https://github.com/b0dj0x/cryptotracker) | Crypto Wallet OSINT (30+ entities) | `Python` `Blockchain` |
+| [**PasteSniffer**](https://github.com/b0dj0x/pastesniffer) | Paste Site Scraper (32 leak patterns) | `Python` `Leak` |
+| [**TorCrawler**](https://github.com/b0dj0x/torcrawler) | Dark Web Crawler (8 categories) | `Python` `Tor` |
+| [**LeakMiner**](https://github.com/b0dj0x/leakminer) | Breach Aggregator (20 paste sites) | `Python` `Breach` |
+| [**ForumScraper**](https://github.com/b0dj0x/forumscraper) | Forum Scraper + Reputation Scoring | `Python` `Forum` |
+| [**DDOSB0DJ0X**](https://github.com/b0dj0x/ddosb0dj0x) | HTTP Stress Testing Tool | `Python` `HTTP` |
+| [**w0lfr00t.com**](https://w0lfr00t.com) | Cybersecurity Community Platform | `Web` `Community` |
+| [**w0lfr00tlabs**](https://w0lfr00tlabs.com) | CTF Challenge Platform | `CTF` `Platform` |
 
 </div>
 
@@ -95,6 +118,7 @@
 <div align="center">
 
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-Penetration+Tester-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_1%25-FF2244?style=for-the-badge&logo=tryhackme&logoColor=white)
 ![INE](https://img.shields.io/badge/INE-eJPT+In+Progress-4B8BF5?style=for-the-badge&logo=ine&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-Security+Fundamentals-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Harvard](https://img.shields.io/badge/Harvard-CS50-A51C30?style=for-the-badge&logo=harvard&logoColor=white)
@@ -121,6 +145,8 @@
 | 🐛 **CVE-2025-0133** Discovery (Microsoft) | 2025 |
 | 💼 First commercial web app sale | 11/09/2024 |
 | 🏢 Enterprise network deployment — APC Sidi Ghilas | 12/2025 |
+| 🛠 **22+ Open Source Security Tools** built | 2024-2025 |
+| 🏢 **CEO w0lfr00t & w0lfr00tlabs** | 2024 |
 
 ---
 
