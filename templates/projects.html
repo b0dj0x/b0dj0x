@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% block title %}Projects by B0dj0x | Cybersecurity Tools & Security Research{% endblock %}
+{% block description %}Security tools, scanners, and open-source projects by B0dj0x. Browse b0d0rk, b0dj0xscn, b0g0x, Black Book, w0lfr00t.com and more.{% endblock %}
+{% block canonical %}/projects{% endblock %}
+{% block ogtitle %}Projects by B0dj0x | Cybersecurity Tools{% endblock %}
+{% block ogdesc %}Security tools, scanners, and open-source projects by B0dj0x.{% endblock %}
+{% block ogurl %}/projects{% endblock %}
+{% block ogtype %}website{% endblock %}
+
+{% block head_extra %}
+<meta name="twitter:title" content="Projects by B0dj0x | Cybersecurity Tools">
+<meta name="twitter:description" content="Security tools, scanners, and open-source projects by B0dj0x.">
+<meta name="twitter:image" content="https://pbs.twimg.com/profile_images/2081113050736705536/HA2XOGg9_400x400.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Projects by B0dj0x",
+  "description": "Security tools, scanners, and open-source projects by B0dj0x.",
+  "url": "https://b0dj0x.cc/projects",
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": 5,
+    "itemListElement": [
+      {"@type": "SoftwareSourceCode","name": "b0d0rk","url": "https://github.com/b0dj0x/b0d0rk","description": "Bug bounty automation and recon tool"},
+      {"@type": "SoftwareSourceCode","name": "b0dj0xscn","url": "https://github.com/b0dj0x/b0dj0xscn","description": "Network scanner and port enumeration tool"},
+      {"@type": "SoftwareSourceCode","name": "b0g0x","url": "https://github.com/b0dj0x/b0g0x","description": "Bug bounty helper and vulnerability scanner"},
+      {"@type": "SoftwareSourceCode","name": "black-book","url": "https://github.com/b0dj0x/black-book","description": "Cybersecurity knowledge base and resources"},
+      {"@type": "WebSite","name": "w0lfr00t.com","url": "https://w0lfr00t.com","description": "Cybersecurity community platform"}
+    ]
+  }
+}
+</script>
+<style>
+:root{--c0:#030810;--c1:#060d1a;--c2:#0a1528;--c3:#0e1d35;--neon-blue:#00d4ff;--neon-cyan:#00fff5;--neon-green:#00ff88;--neon-purple:#b000ff;--neon-pink:#ff00aa;--neon-red:#ff2244;--neon-yellow:#ffcc00;--neon-orange:#ff6600;--glass:rgba(0,212,255,0.04);--glass-border:rgba(0,212,255,0.12);--text-primary:#e8f4ff;--text-muted:#6a8fa8;--text-dim:#2a4a5a;--font-mono:'Share Tech Mono',monospace;--font-orb:'Orbitron',monospace;--font-raj:'Rajdhani',sans-serif;--transition:cubic-bezier(0.23,1,0.32,1)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{background:var(--c0);color:var(--text-primary);font-family:var(--font-raj);overflow-x:hidden;line-height:1.6}
+a{color:var(--neon-cyan);text-decoration:none;transition:color .3s}
+a:hover{color:var(--neon-red)}
+.container{max-width:1200px;margin:0 auto;padding:0 40px}
+.page-hero{padding:140px 0 80px;text-align:center;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(255,34,68,.06) 0%,transparent 70%);pointer-events:none}
+.page-hero h1{font-family:var(--font-orb);font-size:clamp(32px,5vw,56px);font-weight:900;margin-bottom:16px;background:linear-gradient(135deg,#fff 20%,var(--neon-red) 50%,var(--neon-cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.page-hero p{font-family:var(--font-raj);font-size:18px;color:var(--text-muted);max-width:600px;margin:0 auto;line-height:1.7}
+.breadcrumb{font-family:var(--font-mono);font-size:11px;color:var(--text-dim);letter-spacing:1px;margin-bottom:24px}
+.breadcrumb a{color:var(--text-muted)}
+.breadcrumb span{color:var(--neon-red)}
+section{padding:80px 0}
+.section-title{font-family:var(--font-orb);font-size:clamp(24px,3vw,36px);font-weight:700;margin-bottom:16px}
+.section-title span{color:var(--neon-red)}
+.section-sub{font-family:var(--font-raj);font-size:16px;color:var(--text-muted);max-width:600px;line-height:1.7;margin-bottom:48px}
+.project-card{background:var(--glass);border:1px solid var(--glass-border);border-radius:12px;padding:32px;margin-bottom:24px;transition:all .4s var(--transition);position:relative;overflow:hidden}
+.project-card::before{content:'';position:absolute;inset:-1px;border-radius:12px;background:linear-gradient(135deg,rgba(255,34,68,.15),transparent,rgba(0,212,255,.15));opacity:0;transition:.4s}
+.project-card:hover::before{opacity:1}
+.project-card:hover{border-color:rgba(255,34,68,.3);transform:translateY(-4px);box-shadow:0 8px 32px rgba(255,34,68,.08)}
+.project-card h3{font-family:var(--font-orb);font-size:18px;color:var(--neon-cyan);margin-bottom:8px;position:relative;z-index:1}
+.project-card p{font-size:15px;color:var(--text-muted);line-height:1.7;margin-bottom:16px;position:relative;z-index:1}
+.project-tags{display:flex;flex-wrap:wrap;gap:8px;position:relative;z-index:1}
+.project-tag{font-family:var(--font-mono);font-size:10px;letter-spacing:1px;color:var(--neon-red);background:rgba(255,34,68,.08);border:1px solid rgba(255,34,68,.15);border-radius:12px;padding:4px 12px}
+.project-link{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:11px;color:var(--neon-cyan);letter-spacing:1px;margin-top:12px;position:relative;z-index:1}
+.project-link:hover{color:var(--neon-red)}
+.project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:24px}
+@media(max-width:768px){
+  .container{padding:0 16px}
+  .page-hero{padding:100px 0 40px}
+  section{padding:40px 0}
+  .project-grid{grid-template-columns:1fr}
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<header class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="{{ url_for('home') }}">Home</a> / <span>Projects</span></div>
+    <h1>Projects & Tools</h1>
+    <p>Open-source security tools, scanners, and research projects built for the offensive security community.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Open Source <span>Projects</span></h2>
+    <p class="section-sub">Tools built to automate security testing and help bug bounty hunters work faster.</p>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>b0d0rk</h3>
+        <p>Full-featured bug bounty automation and reconnaissance tool. Automates subdomain enumeration, port scanning, directory brute-forcing, and vulnerability detection in a single pipeline.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Recon</span>
+          <span class="project-tag">Automation</span>
+        </div>
+        <a href="https://github.com/b0dj0x/b0d0rk" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+      <div class="project-card">
+        <h3>b0dj0xscn</h3>
+        <p>Advanced network scanner for port enumeration, service detection, and OS fingerprinting. Built for speed and accuracy in large-scale network assessments.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Network</span>
+          <span class="project-tag">Scanner</span>
+        </div>
+        <a href="https://github.com/b0dj0x/b0dj0xscn" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+      <div class="project-card">
+        <h3>b0g0x</h3>
+        <p>Bug bounty helper and vulnerability scanner. Integrates with multiple APIs to identify attack surfaces, find common misconfigurations, and test for OWASP Top 10 vulnerabilities.</p>
+        <div class="project-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Bug Bounty</span>
+          <span class="project-tag">OWASP</span>
+        </div>
+        <a href="https://github.com/b0dj0x/b0g0x" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+      <div class="project-card">
+        <h3>black-book</h3>
+        <p>Comprehensive cybersecurity knowledge base and resource collection. Covers exploit development, privilege escalation techniques, and post-exploitation methodologies.</p>
+        <div class="project-tags">
+          <span class="project-tag">Knowledge</span>
+          <span class="project-tag">Pentest</span>
+          <span class="project-tag">Resources</span>
+        </div>
+        <a href="https://github.com/b0dj0x/black-book" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+      <div class="project-card">
+        <h3>w0lfr00t.com</h3>
+        <p>Cybersecurity community platform for sharing knowledge, tools, and techniques. A hub for security researchers to collaborate and learn together.</p>
+        <div class="project-tags">
+          <span class="project-tag">Community</span>
+          <span class="project-tag">Platform</span>
+          <span class="project-tag">Web</span>
+        </div>
+        <a href="https://w0lfr00t.com" target="_blank" class="project-link">Visit Site →</a>
+      </div>
+      <div class="project-card">
+        <h3>w0lfr00tlabs</h3>
+        <p>Capture The Flag (CTF) platform hosting challenges in web exploitation, cryptography, reverse engineering, forensics, and more. Test your skills against real-world scenarios.</p>
+        <div class="project-tags">
+          <span class="project-tag">CTF</span>
+          <span class="project-tag">Challenges</span>
+          <span class="project-tag">Education</span>
+        </div>
+        <a href="https://w0lfr00tlabs.com" target="_blank" class="project-link">Visit Site →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--c1)">
+  <div class="container">
+    <h2 class="section-title">CVE <span>Credit</span></h2>
+    <p class="section-sub">Vulnerabilities discovered and credited.</p>
+    <div class="project-card" style="max-width:600px">
+      <h3>CVE-2025-0133</h3>
+      <p>Critical vulnerability discovered in Microsoft software. Credited by Microsoft Security Response Center. Full advisory and technical details published.</p>
+      <div class="project-tags">
+        <span class="project-tag">Microsoft</span>
+        <span class="project-tag">Critical</span>
+        <span class="project-tag">CVE</span>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

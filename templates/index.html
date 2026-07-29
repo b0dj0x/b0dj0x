@@ -1,0 +1,1495 @@
+{% extends "base.html" %}
+
+{% block title %}B0dj0x | Cybersecurity Expert{% endblock %}
+{% block description %}Offensive security specialist. I break systems so they can be built stronger. Top 1% on TryHackMe. Hunting vulnerabilities across the web, one bug at a time.{% endblock %}
+
+{% block canonical %}{% endblock %}
+{% block ogtitle %}B0dj0x | Cybersecurity specialist{% endblock %}
+{% block ogdesc %}Offensive security specialist. I break systems so they can be built stronger. Top 1% on TryHackMe. Hunting vulnerabilities across the web, one bug at a time.{% endblock %}
+{% block ogurl %}{% endblock %}
+{% block ogtype %}website{% endblock %}
+
+{% block head_extra %}
+<meta name="keywords" content="cybersecurity,b0dj0x,b0dj0,bodjox,bodjo,B0dj0x,B0DJ0X,BODJOX,hacker,bug bounty">
+<meta name="twitter:title" content="B0dj0x | Cybersecurity specialist">
+<meta name="twitter:description" content="Offensive security specialist. I break systems so they can be built stronger. Top 1% on TryHackMe. Hunting vulnerabilities across the web, one bug at a time.">
+<meta name="twitter:image" content="https://pbs.twimg.com/profile_images/2081113050736705536/HA2XOGg9_400x400.jpg">
+<meta name="twitter:creator" content="@b0dj0x">
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "B0dj0x",
+  "url": "https://b0dj0x.cc",
+  "jobTitle": "CEO w0lfr00t · Cybersecurity Expert",
+  "description": "Offensive security specialist. Top 1% on TryHackMe. I break systems so they can be built stronger.",
+  "sameAs": [
+    "https://b0dj0x.cc",
+    "https://github.com/b0dj0x",
+    "https://x.com/b0dj0x",
+    "https://t.me/b0dj0",
+    "https://tryhackme.com/p/b0dj0x",
+    "https://profile.hackthebox.com/profile/019dee8a-3822-704d-9c13-1c84468f3b8d",
+    "https://hackerone.com/b0dj0x",
+    "https://yeswehack.com/hunters/b0dj0x",
+    "https://bugcrowd.com/h/B0dj0x",
+    "https://medium.com/@b0dj0x",
+    "https://reddit.com/user/b0dj0x",
+    "https://substack.com/@b0dj0x",
+    "https://youtube.com/@b0dj0x",
+    "https://dev.to/b0dj0x",
+    "https://stackoverflow.com/users/b0dj0x"
+  ],
+  "knowsAbout": ["Penetration Testing", "Bug Bounty", "Red Teaming", "Web Security", "Network Security", "OSINT", "Python", "Bash", "Cybersecurity"],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "USDB University"
+  },
+  "nationality": {
+    "@type": "Country",
+    "name": "127.0.0.1"
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<!-- HERO -->
+<section id="hero">
+  <canvas id="three-canvas"></canvas>
+  <!-- Floating 3D decorative elements -->
+  <div style="position:absolute;top:20%;right:15%;z-index:1;pointer-events:none;opacity:.2">
+    <div style="width:40px;height:40px;border:1.5px solid rgba(255,34,68,.3);transform:rotate(45deg);animation:float3d 8s ease-in-out infinite;opacity:.4"></div>
+  </div>
+  <div style="position:absolute;top:60%;right:25%;z-index:1;pointer-events:none;opacity:.2">
+    <div style="width:24px;height:24px;border:1.5px solid rgba(0,212,255,.3);border-radius:50%;animation:float3d 6s ease-in-out infinite reverse;opacity:.4"></div>
+  </div>
+  <div style="position:absolute;top:30%;right:35%;z-index:1;pointer-events:none;opacity:.2">
+    <div style="width:16px;height:16px;background:rgba(176,0,255,.15);animation:float3d 5s ease-in-out infinite;opacity:.5"></div>
+  </div>
+  <div style="position:absolute;bottom:25%;right:10%;z-index:1;pointer-events:none;opacity:.2">
+    <div style="width:32px;height:32px;border:1.5px solid rgba(255,34,68,.2);animation:float3d 7s ease-in-out infinite;transform:rotate(30deg);opacity:.3"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-tag">127.0.0.1 · CEO w0lfr00t · Red Team · Bug Bounty</div>
+    <h1 class="hero-name">
+      <span class="name-text">B0dj0x</span>
+      <span class="glitch" aria-hidden="true">B0dj0x</span>
+      <span class="glitch2" aria-hidden="true">B0dj0x</span>
+    </h1>
+    <div class="hero-title">CEO w0lfr00t · Red Team Operator · Bug Bounty Hunter</div>
+    <div class="typing-wrapper">
+      <span class="typing-prefix">></span>
+      <span class="typing-text typing-glow" id="typing-el"></span>
+    </div>
+    <p class="hero-desc">Offensive security specialist. I break systems so they can be built stronger. Top 1% on TryHackMe. Hunting vulnerabilities across the web, one bug at a time.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary"><span>View Arsenal</span></a>
+      <a href="#bounties" class="btn-outline">Bug Bounty</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="hero-stat-num">Top 1%</div>
+      <div class="hero-stat-lbl">TryHackMe</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">22+</div>
+      <div class="hero-stat-lbl">Security Tools</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">1+</div>
+      <div class="hero-stat-lbl">CVE Found</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">3+</div>
+      <div class="hero-stat-lbl">Bounty Platforms</div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-arrow"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="grid-bg"></div>
+  <div class="glow-orb" style="width:500px;height:500px;background:var(--neon-red);top:-100px;right:-100px;"></div>
+  <div class="container">
+    <div class="section-label reveal">About Me</div>
+    <div class="about-grid">
+      <div>
+        <div class="about-card holo-card reveal">
+          <div class="about-avatar float-3d">
+            <div class="pulse-dot" style="position:absolute;top:-4px;right:-4px;width:12px;height:12px"></div>
+            B0
+          </div>
+          <div class="about-name">B0dj0x</div>
+          <div class="about-role">Red Team Operator · Bug Bounty Hunter</div>
+          <div class="about-badge">Available for engagements</div>
+          <div class="contact-chips">
+            <div class="chip"><div class="chip-icon">✉</div>b0dj0x@proton.me</div>
+            <div class="chip"><div class="chip-icon">📍</div>127.0.0.1</div>
+            <div class="chip"><div class="chip-icon">🔒</div>ProtonMail encrypted</div>
+          </div>
+        </div>
+        <div class="counters reveal reveal-delay-1">
+          <div class="counter-card holo-card"><div class="counter-num" data-count="1" data-suffix="+">0</div><div class="counter-lbl">CVEs Found</div></div>
+          <div class="counter-card holo-card"><div class="counter-num" data-count="22" data-suffix="+">0</div><div class="counter-lbl">Security Tools</div></div>
+          <div class="counter-card holo-card"><div class="counter-num" data-count="6" data-suffix="+">0</div><div class="counter-lbl">Certifications</div></div>
+          <div class="counter-card holo-card"><div class="counter-num" data-count="1" data-suffix="%">Top </div><div class="counter-lbl">THM Global Rank</div></div>
+        </div>
+      </div>
+      <div class="about-text reveal reveal-delay-2">
+        <div class="section-label">Bio</div>
+        <h2 class="section-title">Future <span>Cybersecurity</span> Expert</h2>
+        <p>I am a passionate and ambitious cybersecurity professional specializing in penetration testing, offensive security, and CTF challenges. As <strong style="color:var(--neon-red)">CEO of w0lfr00t</strong> and <strong style="color:var(--neon-purple)">w0lfr00tlabs</strong>, I lead security research and build platforms for the cybersecurity community.</p>
+        <p>With a strong background in mathematics (Baccalaureat) and current studies in Science and Technology at USDB university, I hold solid analytical and technical foundations. I have developed <strong style="color:var(--neon-cyan)">22+ open-source security tools</strong> used by bug bounty hunters and pentesters worldwide.</p>
+        <p>Actively developing my skills through practical challenges, security labs, and platforms like TryHackMe and HackTheBox, I continuously improve my expertise in network exploitation, web application security, and system vulnerabilities — preparing to pursue Telecommunications engineering to deepen infrastructure knowledge.</p>
+        <p>In addition to cybersecurity, I am a full-stack web developer, capable of designing modern, scalable, and secure web solutions. My multidisciplinary skill set allows me to approach problems from both a developer and security analyst perspective.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="grid-bg"></div>
+  <div class="glow-orb" style="width:400px;height:400px;background:var(--neon-purple);bottom:-50px;left:-100px;"></div>
+  <div class="container">
+    <div class="section-label reveal">Technical Arsenal</div>
+    <h2 class="section-title reveal reveal-delay-1">Skills & <span>Expertise</span></h2>
+    <p class="section-sub reveal reveal-delay-2">A comprehensive offensive toolkit built through hands-on practice, real-world engagements, and continuous learning.</p>
+    <div class="skills-orbit">
+      <div class="skill-cat holo-card data-stream tilt-card reveal">
+        <div class="anim-icon-wrap">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="36" stroke="#ff2244" stroke-width="2" stroke-dasharray="6 4" opacity=".6"><animateTransform attributeName="transform" type="rotate" values="0 40 40;360 40 40" dur="8s" repeatCount="indefinite"/></circle><circle cx="40" cy="40" r="26" stroke="#ff6600" stroke-width="1.5" stroke-dasharray="4 6" opacity=".4"><animateTransform attributeName="transform" type="rotate" values="360 40 40;0 40 40" dur="6s" repeatCount="indefinite"/></circle><path d="M28 40 L36 48 L52 32" stroke="#00ff88" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".8"><animate attributeName="stroke-dasharray" values="0 100;50 50;0 100" dur="2s" repeatCount="indefinite"/></path><circle cx="40" cy="40" r="4" fill="#ff2244"><animate attributeName="r" values="3;5;3" dur="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.5;1" dur="1.5s" repeatCount="indefinite"/></circle></svg>
+        </div>
+        <div class="skill-cat-title">Web Security</div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Web App Pentesting</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>SQL Injection</span><span>80%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>XSS / CSRF</span><span>78%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Caido / Burp Suite</span><span>75%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+        <div class="skill-tags" style="margin-top:16px">
+          <span class="skill-tag">OWASP Top 10</span><span class="skill-tag">Bug Bounty</span><span class="skill-tag">API Security</span>
+        </div>
+      </div>
+      <div class="skill-cat holo-card data-stream tilt-card reveal reveal-delay-1">
+        <div class="anim-icon-wrap">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><rect x="16" y="20" width="48" height="40" rx="4" stroke="#00d4ff" stroke-width="2" opacity=".6"><animate attributeName="rx" values="4;8;4" dur="3s" repeatCount="indefinite"/></rect><line x1="24" y1="32" x2="56" y2="32" stroke="#ff2244" stroke-width="1.5" opacity=".4"><animate attributeName="x2" values="40;56;40" dur="2s" repeatCount="indefinite"/></line><line x1="24" y1="40" x2="48" y2="40" stroke="#ff6600" stroke-width="1.5" opacity=".4"><animate attributeName="x2" values="36;48;36" dur="2.5s" repeatCount="indefinite"/></line><line x1="24" y1="48" x2="52" y2="48" stroke="#00ff88" stroke-width="1.5" opacity=".4"><animate attributeName="x2" values="32;52;32" dur="1.8s" repeatCount="indefinite"/></line><circle cx="56" cy="24" r="6" fill="none" stroke="#ff2244" stroke-width="1.5"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.4;1" dur="2s" repeatCount="indefinite"/></circle><circle cx="56" cy="24" r="2" fill="#ff2244"><animate attributeName="opacity" values="1;.3;1" dur="1s" repeatCount="indefinite"/></circle></svg>
+        </div>
+        <div class="skill-cat-title">Network Security</div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Network Pentesting</span><span>75%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Port Scanning</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>CCNA Networking</span><span>70%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div></div>
+        <div class="skill-tags" style="margin-top:16px">
+          <span class="skill-tag">Nmap</span><span class="skill-tag">Wireshark</span><span class="skill-tag">MITM</span>
+        </div>
+      </div>
+      <div class="skill-cat holo-card data-stream tilt-card reveal reveal-delay-2">
+        <div class="anim-icon-wrap">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><path d="M40 16 L56 28 L56 52 L40 64 L24 52 L24 28 Z" stroke="#b000ff" stroke-width="2" fill="none" opacity=".6"><animateTransform attributeName="transform" type="rotate" values="0 40 40;360 40 40" dur="12s" repeatCount="indefinite"/></path><path d="M40 24 L48 32 L48 48 L40 56 L32 48 L32 32 Z" stroke="#00d4ff" stroke-width="1.5" fill="rgba(0,212,255,.08)" opacity=".5"><animateTransform attributeName="transform" type="rotate" values="360 40 40;0 40 40" dur="8s" repeatCount="indefinite"/></path><circle cx="40" cy="40" r="3" fill="#b000ff"><animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite"/></circle><circle cx="40" cy="40" r="8" stroke="#ff2244" stroke-width="1" fill="none" opacity=".3"><animate attributeName="r" values="6;10;6" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".3;.1;.3" dur="3s" repeatCount="indefinite"/></circle></svg>
+        </div>
+        <div class="skill-cat-title">Cloud & DevSec</div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>AWS Security</span><span>65%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Microsoft Sentinel</span><span>60%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div></div>
+        <div class="skill-tags" style="margin-top:16px">
+          <span class="skill-tag">AWS</span><span class="skill-tag">SIEM</span><span class="skill-tag">IAM</span>
+        </div>
+      </div>
+      <div class="skill-cat holo-card data-stream tilt-card reveal">
+        <div class="anim-icon-wrap">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><text x="20" y="36" font-family="monospace" font-size="14" fill="#ff2244" opacity=".8">&lt;/&gt;</text><rect x="16" y="40" width="48" height="24" rx="3" stroke="#00ff88" stroke-width="1.5" fill="none" opacity=".5"><animate attributeName="stroke-dasharray" values="0 200;200 0" dur="3s" repeatCount="indefinite"/></rect><line x1="24" y1="50" x2="44" y2="50" stroke="#00d4ff" stroke-width="2" stroke-linecap="round"><animate attributeName="x2" values="30;44;30" dur="1.5s" repeatCount="indefinite"/></line><line x1="24" y1="56" x2="38" y2="56" stroke="#ff6600" stroke-width="1.5" stroke-linecap="round"><animate attributeName="x2" values="28;38;28" dur="2s" repeatCount="indefinite"/></line><circle cx="52" cy="28" r="10" stroke="#b000ff" stroke-width="1.5" fill="none" opacity=".4"><animateTransform attributeName="transform" type="rotate" values="0 52 28;360 52 28" dur="4s" repeatCount="indefinite"/></circle><text x="48" y="32" font-family="monospace" font-size="10" fill="#b000ff" opacity=".7">Py</text></svg>
+        </div>
+        <div class="skill-cat-title">Programming</div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Python</span><span>80%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Bash / Shell</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>JavaScript / PHP</span><span>75%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Go / C / C#</span><span>55%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="55"></div></div></div>
+        <div class="skill-tags" style="margin-top:16px">
+          <span class="skill-tag">Python</span><span class="skill-tag">Bash</span><span class="skill-tag">Go</span><span class="skill-tag">C</span>
+        </div>
+      </div>
+      <div class="skill-cat holo-card data-stream tilt-card reveal reveal-delay-1">
+        <div class="anim-icon-wrap">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><circle cx="40" cy="40" r="28" stroke="#ff2244" stroke-width="2" fill="none" opacity=".5"><animate attributeName="stroke-dasharray" values="0 176;176 0" dur="4s" repeatCount="indefinite"/></circle><circle cx="40" cy="40" r="20" stroke="#ff6600" stroke-width="1.5" fill="none" stroke-dasharray="4 3" opacity=".4"><animateTransform attributeName="transform" type="rotate" values="0 40 40;360 40 40" dur="6s" repeatCount="indefinite"/></circle><circle cx="40" cy="14" r="4" fill="#ff2244"><animate attributeName="cy" values="14;12;14" dur="1s" repeatCount="indefinite"/></circle><circle cx="40" cy="14" r="8" stroke="#ff2244" stroke-width="1" fill="none"><animate attributeName="r" values="6;12;6" dur="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0;.6" dur="1.5s" repeatCount="indefinite"/></circle><path d="M30 36 L40 46 L50 36" stroke="#00ff88" stroke-width="2" fill="none" stroke-linecap="round"><animate attributeName="stroke-dasharray" values="0 40;40 0" dur="2s" repeatCount="indefinite"/></path><line x1="40" y1="46" x2="40" y2="56" stroke="#00ff88" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="skill-cat-title">Red Team & OSINT</div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Reconnaissance</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>Google Dorking</span><span>90%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div></div>
+        <div class="skill-bar-row"><div class="skill-bar-label"><span>CTF Challenges</span><span>75%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div></div>
+        <div class="skill-tags" style="margin-top:16px">
+          <span class="skill-tag">OSINT</span><span class="skill-tag">Recon</span><span class="skill-tag">Social Eng.</span>
+        </div>
+      </div>
+      <div class="skill-cat holo-card data-stream tilt-card reveal reveal-delay-2">
+        <div class="anim-icon-wrap">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none"><rect x="12" y="24" width="24" height="16" rx="3" stroke="#00d4ff" stroke-width="1.5" fill="none" opacity=".6"><animate attributeName="opacity" values=".6;.3;.6" dur="2s" repeatCount="indefinite"/></rect><rect x="44" y="24" width="24" height="16" rx="3" stroke="#ff2244" stroke-width="1.5" fill="none" opacity=".6"><animate attributeName="opacity" values=".3;.6;.3" dur="2s" repeatCount="indefinite"/></rect><rect x="28" y="48" width="24" height="16" rx="3" stroke="#00ff88" stroke-width="1.5" fill="none" opacity=".6"><animate attributeName="opacity" values=".5;.2;.5" dur="2.5s" repeatCount="indefinite"/></rect><line x1="24" y1="40" x2="40" y2="48" stroke="#b000ff" stroke-width="1" opacity=".4"><animate attributeName="opacity" values=".4;.1;.4" dur="1.5s" repeatCount="indefinite"/></line><line x1="56" y1="40" x2="40" y2="48" stroke="#ff6600" stroke-width="1" opacity=".4"><animate attributeName="opacity" values=".1;.4;.1" dur="1.5s" repeatCount="indefinite"/></line><circle cx="40" cy="40" r="3" fill="#ffcc00"><animate attributeName="r" values="2;4;2" dur="1s" repeatCount="indefinite"/></circle></svg>
+        </div>
+        <div class="skill-cat-title">Tools & Stack</div>
+        <div class="skill-tags" style="gap:10px">
+          <span class="skill-tag">Caido</span><span class="skill-tag">n8n</span><span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Oracle SQL</span><span class="skill-tag">GitHub</span><span class="skill-tag">AWS</span>
+          <span class="skill-tag">PowerShell</span><span class="skill-tag">Linux</span><span class="skill-tag">Metasploit</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="grid-bg"></div>
+  <div class="container">
+    <div class="section-label reveal">Open Source</div>
+    <h2 class="section-title reveal reveal-delay-1">Security <span>Arsenal</span></h2>
+    <p class="section-sub reveal reveal-delay-2">Real tools built for real-world security work. Open source, battle-tested, built from the ground up.</p>
+    <div class="projects-grid">
+      <div class="project-card holo-card tilt-card reveal">
+        <div class="project-header-bar"></div>
+        <div class="project-body">
+          <div class="project-tag">Recon Tool</div>
+          <div class="project-name">b0d0rk — Google Dorking Engine</div>
+          <div class="project-desc">Automated Google Dorking tool for Bug Bounty reconnaissance. Generates and executes targeted dork queries to surface exposed assets, login pages, config files, and vulnerable endpoints at scale.</div>
+          <div class="project-tech">
+            <span class="tech-pill">Bash</span><span class="tech-pill">Google Dorking</span><span class="tech-pill">OSINT</span><span class="tech-pill">Recon</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/b0dj0x/b0d0rk" target="_blank" class="proj-link">
+              <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              GitHub
+            </a>
+            <a href="https://github.com/b0dj0x/b0d0rk" target="_blank" class="proj-link" style="color:var(--neon-green)">
+              <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              View Tool
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,var(--neon-green),var(--neon-cyan),var(--neon-blue))"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-cyan)">Network Tool</div>
+          <div class="project-name">b0dj0xscn — Python Port Scanner</div>
+          <div class="project-desc">High-performance Python port scanner with support for single and multi-IP scanning, custom port ranges, socket timeout tuning, and color-coded terminal output for rapid enumeration during penetration tests.</div>
+          <div class="project-tech">
+            <span class="tech-pill">Python</span><span class="tech-pill">Socket Programming</span><span class="tech-pill">Network Sec</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/b0dj0x/b0dj0xscn" target="_blank" class="proj-link">
+              <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,var(--neon-purple),var(--neon-pink),var(--neon-blue))"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-purple)">Domain Intel</div>
+          <div class="project-name">b0g0x — Domain Vulnerability Scanner</div>
+          <div class="project-desc">Comprehensive domain and IP scanner designed for bug bounty recon. Quickly gathers basic information, scans for common vulnerabilities, and maps the attack surface of target domains with structured output.</div>
+          <div class="project-tech">
+            <span class="tech-pill">Bash</span><span class="tech-pill">Web App Sec</span><span class="tech-pill">Recon</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/b0dj0x/b0g0x" target="_blank" class="proj-link">
+              <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#fff,#ff2244,#000)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:#fff">Security Tool</div>
+          <div class="project-name">Black Book — Cybersecurity Arsenal</div>
+          <div class="project-desc">Comprehensive cybersecurity reference and tool collection. A curated arsenal of security scripts, payloads, wordlists, and techniques for red team operations and penetration testing.</div>
+          <div class="project-tech">
+            <span class="tech-pill">Bash</span><span class="tech-pill">Python</span><span class="tech-pill">Red Team</span><span class="tech-pill">Pentesting</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/b0dj0x/black-book" target="_blank" class="proj-link">
+              <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff2244,#ff6600,#ffcc00)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-orange)">Community</div>
+          <div class="project-name">w0lfr00t.com — Cybersecurity Community</div>
+          <div class="project-desc">A cybersecurity community platform for knowledge sharing, threat intelligence, and collaborative security research. Connecting security professionals and enthusiasts worldwide.</div>
+          <div class="project-tech">
+            <span class="tech-pill">Community</span><span class="tech-pill">Threat Intel</span><span class="tech-pill">Security Research</span>
+          </div>
+          <div class="project-links">
+            <a href="https://w0lfr00t.com" target="_blank" class="proj-link" style="color:var(--neon-orange)">
+              <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Visit Site
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-3">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff2244,#b000ff,#00d4ff)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-purple)">CTF Platform</div>
+          <div class="project-name">w0lfr00tlabs — CTF Challenge Platform</div>
+          <div class="project-desc">Capture The Flag platform hosting cybersecurity challenges across web exploitation, cryptography, forensics, reverse engineering, and more. Test your skills against real-world scenarios.</div>
+          <div class="project-tech">
+            <span class="tech-pill">CTF</span><span class="tech-pill">Challenge Design</span><span class="tech-pill">Platform</span>
+          </div>
+          <div class="project-links">
+            <a href="https://w0lfr00tlabs.com" target="_blank" class="proj-link" style="color:var(--neon-purple)">
+              <svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              Visit Platform
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- NEW TOOLS -->
+      <div class="project-card holo-card tilt-card reveal">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff2244,#ff6600)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-red)">OSINT</div>
+          <div class="project-name">SubPhisher — Subdomain Takeover Scanner</div>
+          <div class="project-desc">Fast automated subdomain takeover scanner with 40+ service fingerprints, live DNS checks, and CNAME dangling detection.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">DNS</span><span class="tech-pill">OSINT</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/subphisher" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#b000ff,#00d4ff)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-purple)">Security</div>
+          <div class="project-name">JWTkiller — JWT Cracker & Forger</div>
+          <div class="project-desc">JWT token cracker, forger, and sniffer. Decode, crack weak secrets, forge tokens, and sniff JWT traffic in real-time.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">JWT</span><span class="tech-pill">Auth</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/jwtkiller" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#00ff88,#00d4ff)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-green)">Vulnerability</div>
+          <div class="project-name">SSRFceptor — Blind SSRF Detector</div>
+          <div class="project-desc">Blind SSRF vulnerability detector with webhook callback server and 30+ OOB payloads for out-of-band testing.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">SSRF</span><span class="tech-pill">OOB</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/ssrfceptor" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ffcc00,#ff6600)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-yellow)">API</div>
+          <div class="project-name">GraphQLploit — GraphQL Introspection Exploiter</div>
+          <div class="project-desc">GraphQL introspection exploiter with schema dumping, query builder, and automated vulnerability detection.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">GraphQL</span><span class="tech-pill">API</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/graphqlploit" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#00d4ff,#b000ff)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-cyan)">Recon</div>
+          <div class="project-name">SubEnum — Subdomain Enumeration</div>
+          <div class="project-desc">Subdomain enumeration tool with 20+ free sources including crt.sh, DNS brute-force, and passive reconnaissance.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">DNS</span><span class="tech-pill">Recon</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/subenum" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff2244,#b000ff)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-red)">CORS</div>
+          <div class="project-name">CORSbomber — CORS Misconfiguration Scanner</div>
+          <div class="project-desc">CORS misconfiguration scanner with 40+ origin mutations and automated detection of insecure CORS policies.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">CORS</span><span class="tech-pill">Web</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/corsbomber" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff6600,#ffcc00)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-orange)">WAF</div>
+          <div class="project-name">WAFNuker — WAF Detection & Bypass</div>
+          <div class="project-desc">WAF detection tool identifying 16+ WAFs with 150+ bypass payloads for SQLi, XSS, and command injection.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">WAF</span><span class="tech-pill">Bypass</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/wafnuker" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#b000ff,#ff2244)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-purple)">Vulnerability</div>
+          <div class="project-name">Log4jScan — Log4Shell Scanner</div>
+          <div class="project-desc">Log4Shell (CVE-2021-44228) scanner with 30 JNDI payloads, callback server, and mass scanning capabilities.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">Log4j</span><span class="tech-pill">CVE</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/log4jscan" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#00ff88,#ffcc00)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-green)">API</div>
+          <div class="project-name">APIThief — REST/GraphQL API Discovery</div>
+          <div class="project-desc">REST and GraphQL API parameter discovery with 21 auth bypass techniques and automated endpoint enumeration.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">API</span><span class="tech-pill">Auth Bypass</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/apithief" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#00d4ff,#00ff88)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-cyan)">OSINT</div>
+          <div class="project-name">FaceTracer — Reverse Image Search</div>
+          <div class="project-desc">Real reverse image search with Trace.moe, SauceNAO, IQDB APIs and 11 stable search links including Google Lens and TinEye.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">OSINT</span><span class="tech-pill">Image</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/facetracer" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff2244,#00d4ff)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-red)">Email</div>
+          <div class="project-name">EmailPhantom — Email Recon</div>
+          <div class="project-desc">Email reconnaissance tool with validation, DNS analysis, Gravatar lookup, social profiles, and breach checking across 26+ OSINT sources.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">Email</span><span class="tech-pill">OSINT</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/emailphantom" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ffcc00,#ff2244)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-yellow)">Username</div>
+          <div class="project-name">UserReaper — Username Harvester</div>
+          <div class="project-desc">Username enumeration across 656 platforms with intelligent verification, false positive filtering, and trust scoring.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">Username</span><span class="tech-pill">OSINT</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/userreaper" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#b000ff,#ff6600)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-purple)">Domain</div>
+          <div class="project-name">DomainGhost — Domain Recon</div>
+          <div class="project-desc">Full domain reconnaissance with WHOIS/RDAP, DNS enumeration, tech stack detection, subdomain brute-force, and 36 OSINT links.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">Domain</span><span class="tech-pill">Recon</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/domainghost" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff6600,#b000ff)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-orange)">Threat Intel</div>
+          <div class="project-name">LeakHunter — Threat Actor Intelligence</div>
+          <div class="project-desc">Threat actor profiles (12 APT groups), breach monitoring, password breach checking via HIBP, and leak source aggregation.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">APT</span><span class="tech-pill">Breach</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/leakhunter" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#00ff88,#b000ff)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-green)">Vehicle</div>
+          <div class="project-name">CarIntel — Vehicle OSINT</div>
+          <div class="project-desc">Vehicle intelligence tool with VIN decoder (150+ WMI codes), license plate lookup (50 US states), recall check, and stolen vehicle check.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">VIN</span><span class="tech-pill">OSINT</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/carintel" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#00d4ff,#ffcc00)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-cyan)">Crypto</div>
+          <div class="project-name">CryptoTracker — Crypto Wallet OSINT</div>
+          <div class="project-desc">Cryptocurrency wallet analysis with multi-chain support, entity attribution (30+ entities), and OFAC sanctions checking.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">Blockchain</span><span class="tech-pill">OSINT</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/cryptotracker" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff2244,#00ff88)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-red)">Breach</div>
+          <div class="project-name">PasteSniffer — Paste Site Scraper</div>
+          <div class="project-desc">Dark web paste site scraper with 32 leak detection patterns, 16 paste site scrapers, and breach database API checks.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">Paste</span><span class="tech-pill">Leak</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/pastesniffer" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#b000ff,#00ff88)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-purple)">Dark Web</div>
+          <div class="project-name">TorCrawler — Dark Web Crawler</div>
+          <div class="project-desc">Dark web crawler with 8 category classifiers (drugs, cards, data, weapons), recursive .onion crawling, and 3 search engines.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">Tor</span><span class="tech-pill">Crawler</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/torcrawler" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff6600,#00d4ff)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-orange)">Breach</div>
+          <div class="project-name">LeakMiner — Breach Aggregator</div>
+          <div class="project-desc">Paste site and breach aggregator with 20 paste sites, 10 breach databases, 17 leak patterns, and real-time keyword monitoring.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">Breach</span><span class="tech-pill">Monitor</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/leakminer" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#ff2244,#ffcc00)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-red)">Dark Web</div>
+          <div class="project-name">ForumScraper — Forum Scraper</div>
+          <div class="project-desc">Dark web forum scraper with 10 known forums, user reputation scoring (0-100), and 8 content categories.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">Forum</span><span class="tech-pill">Reputation</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/forumscraper" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+      <div class="project-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="project-header-bar" style="background:linear-gradient(90deg,#00ff88,#ff2244)"></div>
+        <div class="project-body">
+          <div class="project-tag" style="color:var(--neon-green)">Stress Test</div>
+          <div class="project-name">DDOSB0DJ0X — Stress Testing Tool</div>
+          <div class="project-desc">HTTP stress testing tool with 5 attack modes, Slowloris, custom payloads, live stats panel, and authorization gate.</div>
+          <div class="project-tech"><span class="tech-pill">Python</span><span class="tech-pill">HTTP</span><span class="tech-pill">Stress</span></div>
+          <div class="project-links"><a href="https://github.com/b0dj0x/ddosb0dj0x" target="_blank" class="proj-link"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>GitHub</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="bounties">
+  <div class="grid-bg"></div>
+  <div class="glow-orb" style="width:400px;height:400px;background:var(--neon-red);top:-50px;left:-100px;"></div>
+  <div class="container">
+    <div class="section-label reveal">Bug Bounty</div>
+    <h2 class="section-title reveal reveal-delay-1">Bounty <span>Hunter</span></h2>
+    <p class="section-sub reveal reveal-delay-2">Hunting vulnerabilities across the world's top bug bounty platforms. Responsible disclosure. Real impact.</p>
+    <div class="bounty-grid">
+      <div class="bounty-stat holo-card tilt-card reveal">
+        <div class="bounty-stat-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="#ff2244" stroke-width="2" fill="none" stroke-dasharray="5 3"><animateTransform attributeName="transform" type="rotate" values="0 24 24;360 24 24" dur="6s" repeatCount="indefinite"/></circle><text x="14" y="28" font-family="monospace" font-size="12" fill="#ff2244" font-weight="bold">CVE</text></svg>
+        </div>
+        <div class="bounty-stat-num">1+</div>
+        <div class="bounty-stat-lbl">CVEs Discovered</div>
+      </div>
+      <div class="bounty-stat holo-card tilt-card reveal reveal-delay-1">
+        <div class="bounty-stat-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="8" y="12" width="32" height="24" rx="4" stroke="#00ff88" stroke-width="2" fill="none"><animate attributeName="rx" values="4;8;4" dur="3s" repeatCount="indefinite"/></rect><circle cx="24" cy="24" r="6" stroke="#00ff88" stroke-width="1.5" fill="none"><animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/></circle><circle cx="24" cy="24" r="2" fill="#00ff88"><animate attributeName="opacity" values="1;.4;1" dur="1.5s" repeatCount="indefinite"/></circle></svg>
+        </div>
+        <div class="bounty-stat-num">3+</div>
+        <div class="bounty-stat-lbl">Active Platforms</div>
+      </div>
+      <div class="bounty-stat holo-card tilt-card reveal reveal-delay-2">
+        <div class="bounty-stat-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><polygon points="24,4 28,18 44,18 31,26 35,42 24,32 13,42 17,26 4,18 20,18" stroke="#ffcc00" stroke-width="1.5" fill="none" opacity=".7"><animate attributeName="opacity" values=".7;.3;.7" dur="2s" repeatCount="indefinite"/></polygon><polygon points="24,12 26,20 34,20 28,25 30,34 24,29 18,34 20,25 14,20 22,20" stroke="#ffcc00" stroke-width="1" fill="rgba(255,204,0,.15)"><animateTransform attributeName="transform" type="rotate" values="0 24 24;360 24 24" dur="10s" repeatCount="indefinite"/></polygon></svg>
+        </div>
+        <div class="bounty-stat-num">Top 1%</div>
+        <div class="bounty-stat-lbl">THM Global Rank</div>
+      </div>
+      <div class="bounty-stat holo-card tilt-card reveal reveal-delay-3">
+        <div class="bounty-stat-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><path d="M24 8 L32 16 L40 8" stroke="#ff2244" stroke-width="2" fill="none" stroke-linecap="round" opacity=".5"><animate attributeName="opacity" values=".5;.2;.5" dur="1.5s" repeatCount="indefinite"/></path><path d="M16 20 L24 28 L32 20" stroke="#ff6600" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"><animate attributeName="opacity" values=".3;.7;.3" dur="1.8s" repeatCount="indefinite"/></path><path d="M8 32 L16 40 L24 32" stroke="#00ff88" stroke-width="2" fill="none" stroke-linecap="round" opacity=".7"><animate attributeName="opacity" values=".6;.2;.6" dur="2s" repeatCount="indefinite"/></path><path d="M24 32 L32 40 L40 32" stroke="#00d4ff" stroke-width="2" fill="none" stroke-linecap="round" opacity=".5"><animate attributeName="opacity" values=".2;.6;.2" dur="1.3s" repeatCount="indefinite"/></path></svg>
+        </div>
+        <div class="bounty-stat-num">∞</div>
+        <div class="bounty-stat-lbl">CTF Challenges</div>
+      </div>
+    </div>
+    <div class="section-label reveal" style="margin-bottom:24px">Bug Bounty Platforms</div>
+    <div class="bounty-platforms">
+      <a href="https://hackerone.com/b0dj0x" target="_blank" class="platform-card reveal">
+        <div class="platform-icon" style="background:rgba(255,34,68,.1);color:var(--neon-red)">H1</div>
+        <div><div class="platform-name">HackerOne</div><div class="platform-role">Bug Bounty Hunter</div></div>
+      </a>
+      <a href="https://yeswehack.com/hunters/b0dj0x" target="_blank" class="platform-card reveal reveal-delay-1">
+        <div class="platform-icon" style="background:rgba(0,255,136,.1);color:var(--neon-green)">YWH</div>
+        <div><div class="platform-name">YesWeHack</div><div class="platform-role">Bug Bounty Hunter</div></div>
+      </a>
+      <a href="https://bugcrowd.com/h/B0dj0x" target="_blank" class="platform-card reveal reveal-delay-2">
+        <div class="platform-icon" style="background:rgba(0,212,255,.1);color:var(--neon-blue)">BC</div>
+        <div><div class="platform-name">Bugcrowd</div><div class="platform-role">Bug Bounty Hunter</div></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-label reveal">Verified Credentials</div>
+    <h2 class="section-title reveal reveal-delay-1"><span>Certifications</span> & Training</h2>
+    <p class="section-sub reveal reveal-delay-2">Platform recognitions and certification paths actively pursued.</p>
+    <div class="certs-grid">
+      <div class="cert-card reveal">
+        <div class="cert-icon">
+          <div class="cert-icon-inner">🛡️</div>
+        </div>
+        <div class="cert-name">Penetration Tester Path</div>
+        <div class="cert-issuer">TryHackMe</div>
+        <div class="cert-status active">✓ Completed</div>
+      </div>
+      <div class="cert-card reveal reveal-delay-1">
+        <div class="cert-icon">
+          <div class="cert-icon-inner">🎓</div>
+        </div>
+        <div class="cert-name">eJPT (In Progress)</div>
+        <div class="cert-issuer">INE Security</div>
+        <div class="cert-status in-progress">● In Progress</div>
+      </div>
+      <div class="cert-card reveal reveal-delay-2">
+        <div class="cert-icon">
+          <div class="cert-icon-inner">☁️</div>
+        </div>
+        <div class="cert-name">AWS Security</div>
+        <div class="cert-issuer">AWS Educate</div>
+        <div class="cert-status active">✓ Completed</div>
+      </div>
+      <div class="cert-card reveal reveal-delay-3">
+        <div class="cert-icon">
+          <div class="cert-icon-inner">🔵</div>
+        </div>
+        <div class="cert-name">CS50 Computer Science</div>
+        <div class="cert-issuer">Harvard University</div>
+        <div class="cert-status active">✓ Completed</div>
+      </div>
+      <div class="cert-card reveal">
+        <div class="cert-icon">
+          <div class="cert-icon-inner">🌐</div>
+        </div>
+        <div class="cert-name">SC-200: Microsoft Sentinel</div>
+        <div class="cert-issuer">Microsoft Learn</div>
+        <div class="cert-status active">✓ Completed</div>
+      </div>
+      <div class="cert-card reveal reveal-delay-1">
+        <div class="cert-icon">
+          <div class="cert-icon-inner">🔑</div>
+        </div>
+        <div class="cert-name">CCNA Networking</div>
+        <div class="cert-issuer">Cisco (Course)</div>
+        <div class="cert-status active">✓ Completed</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="grid-bg"></div>
+  <div class="container">
+    <div class="section-label reveal">Work History</div>
+    <h2 class="section-title reveal reveal-delay-1">Professional <span>Experience</span></h2>
+    <div class="timeline reveal reveal-delay-2">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">Jan 2024 – Present</div>
+          <div class="tl-role">Web App Developer & Network Engineer</div>
+          <div class="tl-company">Yousoft · 127.0.0.1</div>
+          <ul class="tl-list">
+            <li>Built full-stack web applications from design to deployment</li>
+            <li>Maintained and updated existing production web applications</li>
+            <li>Implemented security best practices across the development lifecycle</li>
+            <li>Monitored and troubleshot complex network infrastructure issues</li>
+            <li>Designed and deployed local networks for corporate clients</li>
+            <li>Performed manual penetration testing to identify vulnerabilities in web applications</li>
+            <li>Managed and enhanced cloud security posture on AWS</li>
+            <li>Provided detailed remediation recommendations to clients</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="section-label reveal">Academic Background</div>
+    <h2 class="section-title reveal reveal-delay-1"><span>Education</span> Timeline</h2>
+    <div class="timeline reveal reveal-delay-2">
+      <div class="tl-item">
+        <div class="tl-dot" style="background:var(--neon-purple);box-shadow:0 0 16px var(--neon-purple)"></div>
+        <div class="tl-card">
+          <div class="tl-date">2025 – Present</div>
+          <div class="tl-role">Science & Technology (ST)</div>
+          <div class="tl-company">USDB University · 127.0.0.1</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">2025 – Present</div>
+          <div class="tl-role">Junior Penetration Tester Course</div>
+          <div class="tl-company">INE / eJPT · Online</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">2025</div>
+          <div class="tl-role">CS50 — Computer Science Fundamentals</div>
+          <div class="tl-company">Harvard University · Online</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">2024</div>
+          <div class="tl-role">Ethical Hacking</div>
+          <div class="tl-company">HackersArise · Online</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">2020 – 2022</div>
+          <div class="tl-role">Web Development Course</div>
+          <div class="tl-company">Maxcenter · 127.0.0.1</div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-date">2020 – 2022</div>
+          <div class="tl-role">CompTIA A+ (Arabic) & CCNA</div>
+          <div class="tl-company">Online Courses</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <div class="grid-bg"></div>
+  <div class="container">
+    <div class="section-label reveal">Milestones</div>
+    <h2 class="section-title reveal reveal-delay-1">Key <span>Achievements</span></h2>
+    <div class="ach-grid">
+      <div class="ach-card holo-card tilt-card reveal">
+        <div class="ach-icon">🏆</div>
+        <div>
+          <div class="ach-title">Global Top 1% on TryHackMe</div>
+          <div class="ach-desc">Ranked in the global Top 1% by solving advanced real-world cybersecurity challenges across multiple domains.</div>
+        </div>
+      </div>
+      <div class="ach-card holo-card tilt-card reveal reveal-delay-1">
+        <div class="ach-icon">🐛</div>
+        <div>
+          <div class="ach-title">CVE-2025-0133 Discovery</div>
+          <div class="ach-desc">Found a vulnerability in Microsoft's website related to CVE-2025-0133. Out of scope, but a significant first discovery.</div>
+        </div>
+      </div>
+      <div class="ach-card holo-card tilt-card reveal reveal-delay-2">
+        <div class="ach-icon">🌐</div>
+        <div>
+          <div class="ach-title">First Web App Sale</div>
+          <div class="ach-desc">Successfully sold first commercial web application to APC Ahmer El'Ain on 11/09/2024.</div>
+        </div>
+      </div>
+      <div class="ach-card holo-card tilt-card reveal reveal-delay-3">
+        <div class="ach-icon">📡</div>
+        <div>
+          <div class="ach-title">Enterprise Network Deployment</div>
+          <div class="ach-desc">Designed and deployed complete local network infrastructure for APC Sidi Ghilas corporate office in 12/2025.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- CYBER LAB -->
+<section id="cyberlab">
+  <div class="container">
+    <div class="section-label reveal">Interactive</div>
+    <h2 class="section-title reveal reveal-delay-1">Cyber <span>Lab</span></h2>
+    <p class="section-sub reveal reveal-delay-2">Simulated network topology with live attack visualization. Watch the red team in action.</p>
+    <div class="lab-container reveal reveal-delay-3">
+      <div class="lab-topbar">
+        <div class="lab-dot r"></div><div class="lab-dot y"></div><div class="lab-dot g"></div>
+        <div class="lab-title">SOC Dashboard · Network Topology Monitor · LIVE</div>
+      </div>
+      <div class="lab-body">
+        <canvas id="lab-canvas"></canvas>
+        <div class="lab-panel">
+          <div class="lab-panel-title">Network Nodes</div>
+          <div class="lab-node-list" id="lab-node-list"></div>
+          <div class="lab-attacks" id="lab-attacks">
+            <div class="lab-panel-title" style="margin-top:20px">Attack Log</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- TERMINAL -->
+<section id="terminal-section">
+  <div class="container">
+    <div class="section-label reveal">Command Interface</div>
+    <h2 class="section-title reveal reveal-delay-1" style="text-align:center">Live <span>Terminal</span></h2>
+    <p class="section-sub reveal reveal-delay-2" style="text-align:center;margin:0 auto 48px">Try: <code style="color:var(--neon-red);font-family:var(--font-mono)">whoami</code> · <code style="color:var(--neon-red);font-family:var(--font-mono)">skills</code> · <code style="color:var(--neon-red);font-family:var(--font-mono)">projects</code> · <code style="color:var(--neon-red);font-family:var(--font-mono)">bounties</code> · <code style="color:var(--neon-red);font-family:var(--font-mono)">nmap localhost</code> · <code style="color:var(--neon-red);font-family:var(--font-mono)">help</code></p>
+    <div class="terminal data-stream reveal reveal-delay-3">
+      <div class="terminal-bar">
+        <div class="t-dot r"></div><div class="t-dot y"></div><div class="t-dot g"></div>
+        <div class="terminal-title">b0dj0x@kali:~$ — bash</div>
+      </div>
+      <div class="terminal-body" id="terminal-body">
+        <div class="t-line"><span class="t-out info">═══════════════════════════════════════════</span></div>
+        <div class="t-line"><span class="t-out info">  B0dj0x Terminal v2.0.0 — Red Team Edition</span></div>
+        <div class="t-line"><span class="t-out info">═══════════════════════════════════════════</span></div>
+        <div class="t-line"><span class="t-out">Type 'help' to see available commands.</span></div>
+        <div class="t-line" style="margin-bottom:8px"></div>
+      </div>
+      <div class="terminal-input-row">
+        <span class="t-prompt">b0dj0x@kali:~$</span>
+        <input type="text" class="t-input" id="terminal-input" placeholder="Enter command..." autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- TRAININGS -->
+<section id="trainings">
+  <div class="grid-bg"></div>
+  <div class="container">
+    <div class="section-label reveal">Learning Path</div>
+    <h2 class="section-title reveal reveal-delay-1">Trainings & <span>Courses</span></h2>
+    <div class="training-grid">
+      <div class="training-card reveal">
+        <div class="training-icon">🌐</div>
+        <div class="training-title">Web Development</div>
+        <ul class="training-list">
+          <li>HTML / CSS / JavaScript</li><li>PHP / Python</li><li>MySQL Database</li>
+        </ul>
+      </div>
+      <div class="training-card reveal reveal-delay-1">
+        <div class="training-icon">☁️</div>
+        <div class="training-title">AWS Educate — Security</div>
+        <ul class="training-list">
+          <li>Getting Started with Security on AWS</li>
+        </ul>
+      </div>
+      <div class="training-card reveal reveal-delay-2">
+        <div class="training-icon">🛡️</div>
+        <div class="training-title">TryHackMe Paths</div>
+        <ul class="training-list">
+          <li>Jr. Penetration Tester</li><li>Web Fundamentals</li>
+        </ul>
+      </div>
+      <div class="training-card reveal">
+        <div class="training-icon">🔵</div>
+        <div class="training-title">Microsoft Learn</div>
+        <ul class="training-list">
+          <li>SC-200: Configure Sentinel</li><li>Linux & Shell Scripting</li><li>Introduction to GitHub</li>
+        </ul>
+      </div>
+      <div class="training-card reveal reveal-delay-1">
+        <div class="training-icon">💻</div>
+        <div class="training-title">Sa7ee7 Training</div>
+        <ul class="training-list">
+          <li>Networking Fundamentals</li><li>ISC2 Security</li><li>Bug Bounty Hunting</li><li>Ethical Hacking</li>
+        </ul>
+      </div>
+      <div class="training-card reveal reveal-delay-2">
+        <div class="training-icon">🔑</div>
+        <div class="training-title">eJPT Training</div>
+        <ul class="training-list">
+          <li>Penetration Testing Methodology</li><li>Web Security Introduction</li><li>Cloud Security Fundamentals</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="neon-divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="grid-bg"></div>
+  <div class="glow-orb" style="width:400px;height:400px;background:var(--neon-cyan);top:-50px;right:-100px;"></div>
+  <div class="container">
+    <div class="section-label reveal">Get In Touch</div>
+    <h2 class="section-title reveal reveal-delay-1">Contact <span>Me</span></h2>
+    <div class="contact-grid">
+      <div class="reveal reveal-delay-1">
+        <div class="contact-info-title">Let's Work Together</div>
+        <div class="contact-info-sub">Available for bug bounty collaborations, security assessments, freelance pentesting, and full-stack development projects.</div>
+        <div class="contact-item">
+          <div class="c-icon">✉</div>
+          <div><div class="c-label">Email</div><div class="c-value">b0dj0x@proton.me</div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">✈</div>
+          <div><div class="c-label">Telegram</div><div class="c-value"><a href="https://t.me/b0dj0" target="_blank">@b0dj0</a></div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">📍</div>
+          <div><div class="c-label">Location</div><div class="c-value">127.0.0.1</div></div>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/b0dj0x" target="_blank" class="social-btn" title="GitHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+          <a href="https://x.com/b0dj0x" target="_blank" class="social-btn" title="X / Twitter"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="https://t.me/b0dj0" target="_blank" class="social-btn" title="Telegram"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></a>
+          <a href="https://tryhackme.com/p/b0dj0x" target="_blank" class="social-btn" title="TryHackMe"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.374.012C5.447.398.903 5.263.062 11.132a11.648 11.648 0 0 0 .146 1.97c.315 1.377 1.063 2.53 2.062 3.343-.086-.654-.138-1.323-.138-2.005 0-5.79 4.696-10.492 10.485-10.492.667 0 1.322.064 1.96.182A10.401 10.401 0 0 0 11.374.012zM.206 13.103c.208-2.27 1.187-4.263 2.707-5.783 2.496-2.5 6.38-3.62 10.034-3.252a11.79 11.79 0 0 1-1.142 3.513c-1.632 3.71-5.38 5.724-9.28 5.105a12.26 12.26 0 0 1-2.32-.583zm14.176 6.178c-3.31.767-6.64-.078-9.184-2.13a.96.96 0 0 0-.338-.164c-.266-.086-.539-.14-.817-.14-.33 0-.65.073-.942.21-.176.084-.33.192-.455.323-.178.187-.283.417-.294.665a.956.956 0 0 0 .174.579c1.87 2.736 5.07 4.27 8.476 4.27.813 0 1.628-.1 2.423-.3l.196-.052c.09-.025.178-.055.265-.09a2.63 2.63 0 0 0 .432-.218.953.953 0 0 0 .346-.398.957.957 0 0 0-.082-.766 1.106 1.106 0 0 0-.27-.29 1.497 1.497 0 0 0-.379-.204c-.118-.042-.242-.072-.367-.096l-.018-.001c-.077-.014-.154-.024-.232-.03l-.105-.006z"/></svg></a>
+          <a href="https://profile.hackthebox.com/profile/019dee8a-3822-704d-9c13-1c84468f3b8d" target="_blank" class="social-btn" title="HackTheBox"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.915 0L5.555 3.72v7.438l-1.11-.64V3.72L0 6.84v10.32l6.36 3.72v-2.39l-2.1-1.21 2.1-1.21v-4.88l5.456 3.15V11.74l2.09-1.21-2.09-1.21V6.16l2.09 1.21 2.1-1.21V2.94L12.775.05l-.86-.05zm4.185 4.03v2.42l2.09 1.21-2.09 1.21v4.88l2.09-1.21 2.1 1.21v2.42l-2.1-1.21-2.09 1.21v2.42l4.185-2.42V6.45l-4.185-2.42zm-1.1 5.71l-2.1-1.21 2.1-1.21v2.42z"/></svg></a>
+          <a href="https://hackerone.com/b0dj0x" target="_blank" class="social-btn" title="HackerOne"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 3.6c4.637 0 8.4 3.763 8.4 8.4s-3.763 8.4-8.4 8.4-8.4-3.763-8.4-8.4 3.763-8.4 8.4-8.4zm0 3a5.4 5.4 0 1 0 0 10.8 5.4 5.4 0 0 0 0-10.8z"/></svg></a>
+          <a href="https://yeswehack.com/hunters/b0dj0x" target="_blank" class="social-btn" title="YesWeHack"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15l-5-5 1.41-1.41L11 14.17l7.59-7.59L20 8l-9 9z"/></svg></a>
+          <a href="https://bugcrowd.com/h/B0dj0x" target="_blank" class="social-btn" title="Bugcrowd"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 12h3v9h6v-6h4v6h6v-9h3L12 2z"/></svg></a>
+          <a href="https://medium.com/@b0dj0x" target="_blank" class="social-btn" title="Medium"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg></a>
+          <a href="https://reddit.com/user/b0dj0x" target="_blank" class="social-btn" title="Reddit"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.827.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg></a>
+          <a href="https://substack.com/@b0dj0x" target="_blank" class="social-btn" title="Substack"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></a>
+          <a href="https://youtube.com/@b0dj0x" target="_blank" class="social-btn" title="YouTube"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+          <a href="https://dev.to/b0dj0x" target="_blank" class="social-btn" title="Dev.to"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.193 9.476c-.057-.253-.144-.5-.265-.737-1.462-2.842-4.35-4.07-7.65-4.108H7.664l-.004 12.648h3.664v-4.408h.265l.446 4.408h3.826l.42-4.408h.265v-4.408h-.265l-.025.253-1.343 4.155h-2.67l-1.32-4.155-.03-.253H7.664V9.476h3.013c2.864.036 5.222.87 6.693 3.724l.304.597-3.672 1.797-.304-.617c-.864-1.758-2.536-2.137-3.366-2.113-.83.024-1.99.4-2.094 2.394h3.39l.118.018.142.428.544 1.72.094.291.492 1.558.033.105.53 1.668.117.37H12.12l-.004-1.442h-1.57V19.6h1.57v-1.46h-.004l-.566-1.78-.096-.3-.48-1.514-.095-.3-.238-.746-.043-.135-.187-.588-.047-.147-.108-.342-.013-.04-.162-.508-.056-.177-.04-.127-.152-.476-.066-.207-.026-.082-.128-.402-.084-.266-.012-.04-.102-.322-.095-.3-.008-.028-.108-.338-.112-.35-.004-.014-.12-.374-.132-.412-.006-.02-.132-.412-.15-.468-.004-.012-.142-.442-.167-.52-.002-.008-.154-.482-.187-.584-.002-.006-.17-.532-.212-.664-.002-.004-.184-.576-.233-.73-.002-.004-.2-.624-.255-.798-.002-.002-.216-.676-.28-.854-.002-.002-.23-.722-.304-.912-.002-.002-.246-.772-.33-.97-.002-.002-.262-.824-.355-1.028-.002-.002-.276-.868-.38-1.084-.002-.002-.29-.912-.404-1.138z"/></svg></a>
+          <a href="https://stackoverflow.com/users/b0dj0x" target="_blank" class="social-btn" title="StackOverflow"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M15.725 0l-1.72 1.277 6.39 8.588 1.72-1.277L15.725 0zm-3.94 3.418l-1.369 1.644 8.225 6.85 1.369-1.644-8.225-6.85zm-3.15 4.465l-.905 1.94 9.702 4.517.905-1.94-9.702-4.517zm-1.85 4.86l-.44 2.093 10.473 2.201.44-2.092-10.473-2.203zM1.89 15.47V24h19.19v-8.53h-2.133v6.397H4.021v-6.396H1.89zm4.265 2.133v2.13h10.66v-2.13H6.154z"/></svg></a>
+        </div>
+        <div class="pgp-block">
+          <div class="pgp-label">PGP Public Key</div>
+          <div class="pgp-key">Contact via b0dj0x@proton.me for encrypted communications. ProtonMail provides end-to-end encryption by default for ProtonMail-to-ProtonMail conversations.</div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <form class="contact-form" id="contact-form" onsubmit="submitForm(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" placeholder="Your name" required id="cf-name">
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="your@email.com" required id="cf-email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" placeholder="Security assessment, bug bounty, dev project..." required id="cf-subject">
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Describe your project or inquiry..." required id="cf-msg"></textarea>
+          </div>
+          <div class="form-msg" id="form-success">Message received. I'll get back to you within 24 hours.</div>
+          <button type="submit" class="form-submit">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+
+/* ── CURSOR ── */
+const cur=document.getElementById('cursor'),ring=document.getElementById('cursor-ring');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cur.style.left=mx+'px';cur.style.top=my+'px'});
+setInterval(()=>{rx+=(mx-rx)*.15;ry+=(my-ry)*.15;ring.style.left=Math.round(rx)+'px';ring.style.top=Math.round(ry)+'px'},16);
+document.querySelectorAll('a,button,input,textarea,.skill-cat,.project-card,.cert-card,.ach-card,.bounty-stat,.platform-card').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{cur.classList.add('hover');ring.classList.add('hover')});
+  el.addEventListener('mouseleave',()=>{cur.classList.remove('hover');ring.classList.remove('hover')});
+});
+
+/* ── CLICK PARTICLE BURST ── */
+document.addEventListener('click',e=>{
+  const colors=['#ff2244','#ff6600','#ffcc00','#00ff88','#00d4ff','#b000ff'];
+  for(let i=0;i<12;i++){
+    const p=document.createElement('div');
+    p.className='click-particle';
+    p.style.left=e.clientX+'px';
+    p.style.top=e.clientY+'px';
+    p.style.background=colors[Math.floor(Math.random()*colors.length)];
+    const angle=Math.random()*Math.PI*2;
+    const dist=40+Math.random()*60;
+    p.style.setProperty('--tx',Math.cos(angle)*dist+'px');
+    p.style.setProperty('--ty',Math.sin(angle)*dist+'px');
+    document.body.appendChild(p);
+    setTimeout(()=>p.remove(),600);
+  }
+});
+
+/* ── CSS FLOATING PARTICLES ── */
+(()=>{
+  const container=document.getElementById('css-particles');
+  if(!container)return;
+  for(let i=0;i<30;i++){
+    const p=document.createElement('div');
+    p.className='css-particle';
+    p.style.left=Math.random()*100+'%';
+    p.style.animationDuration=(8+Math.random()*12)+'s';
+    p.style.animationDelay=Math.random()*10+'s';
+    p.style.width=p.style.height=(1+Math.random()*3)+'px';
+    container.appendChild(p);
+  }
+})();
+
+/* ── LOADER ── */
+const statuses=['[ LOADING KERNEL... ]','[ INIT RED TEAM MODULES... ]','[ ESTABLISHING C2 CHANNEL... ]','[ DECRYPTING PORTFOLIO... ]','[ LOADING 3D ENGINE... ]','[ READY ]'];
+let si=0;
+const sint=setInterval(()=>{
+  document.getElementById('loader-status').textContent=statuses[si++];
+  if(si>=statuses.length)clearInterval(sint);
+},380);
+setTimeout(()=>document.getElementById('loader').classList.add('out'),2400);
+
+/* ── NAV ── */
+function toggleNav(){document.getElementById('nav-links').classList.toggle('open')}
+window.addEventListener('scroll',()=>{
+  const s=window.scrollY;
+  document.querySelectorAll('section[id]').forEach(sec=>{
+    if(s>=sec.offsetTop-80&&s<sec.offsetTop+sec.offsetHeight-80){
+      document.querySelectorAll('.nav-links a').forEach(a=>a.classList.remove('active'));
+      const link=document.querySelector(`.nav-links a[href="#${sec.id}"]`);
+      if(link)link.classList.add('active');
+    }
+  });
+  const bt=document.getElementById('back-top');
+  s>400?bt.classList.add('visible'):bt.classList.remove('visible');
+});
+
+/* ── HEX GRID BG ── */
+(()=>{
+  const c=document.getElementById('hex-canvas');
+  const ctx=c.getContext('2d');
+  function resize(){c.width=window.innerWidth;c.height=window.innerHeight}
+  resize();window.addEventListener('resize',resize);
+  function draw(){
+    ctx.clearRect(0,0,c.width,c.height);
+    ctx.strokeStyle='#ff2244';
+    ctx.lineWidth=.5;
+    const s=40;
+    for(let y=0;y<c.height;y+=s){
+      for(let x=0;x<c.width;x+=s*1.73){
+        const ox=(y/s)%2?s*0.866:0;
+        ctx.beginPath();
+        for(let i=0;i<6;i++){
+          const a=Math.PI/3*i-Math.PI/6;
+          const px=x+ox+s*0.5*Math.cos(a);
+          const py=y+s*0.5*Math.sin(a);
+          i===0?ctx.moveTo(px,py):ctx.lineTo(px,py);
+        }
+        ctx.closePath();ctx.stroke();
+      }
+    }
+  }
+  draw();
+  window.addEventListener('resize',draw);
+})();
+
+/* ── TYPING EFFECT ── */
+(()=>{
+  const roles=['Red Team Operator','Bug Bounty Hunter','Ethical Hacker','Security Analyst','Threat Researcher','Web Developer','Penetration Tester'];
+  const el=document.getElementById('typing-el');
+  let ri=0,ci=0,del=false;
+  function type(){
+    const r=roles[ri];
+    if(!del){el.textContent=r.slice(0,++ci);if(ci===r.length){del=true;setTimeout(type,1800);return;}}
+    else{el.textContent=r.slice(0,--ci);if(ci===0){del=false;ri=(ri+1)%roles.length;}}
+    setTimeout(type,del?40:80);
+  }
+  type();
+})();
+
+/* ── THREE.JS 3D HERO ── */
+(()=>{
+  const c=document.getElementById('three-canvas');
+  const renderer=new THREE.WebGLRenderer({canvas:c,alpha:true,antialias:true});
+  renderer.setSize(window.innerWidth,window.innerHeight);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
+  const scene=new THREE.Scene();
+  const camera=new THREE.PerspectiveCamera(60,window.innerWidth/window.innerHeight,0.1,1000);
+  camera.position.z=5;
+
+  let mouseX=0,mouseY=0;
+  document.addEventListener('mousemove',e=>{
+    mouseX=(e.clientX/window.innerWidth-.5)*2;
+    mouseY=(e.clientY/window.innerHeight-.5)*2;
+  });
+
+  // Globe wireframe
+  const globeGeo=new THREE.IcosahedronGeometry(2,2);
+  const globeMat=new THREE.MeshBasicMaterial({color:0xff2244,wireframe:true,transparent:true,opacity:0.15});
+  const globe=new THREE.Mesh(globeGeo,globeMat);
+  globe.position.set(2.5,0,-1);
+  scene.add(globe);
+
+  // Inner globe
+  const innerGlobeGeo=new THREE.IcosahedronGeometry(1.5,1);
+  const innerGlobeMat=new THREE.MeshBasicMaterial({color:0x00d4ff,wireframe:true,transparent:true,opacity:0.08});
+  const innerGlobe=new THREE.Mesh(innerGlobeGeo,innerGlobeMat);
+  innerGlobe.position.set(2.5,0,-1);
+  scene.add(innerGlobe);
+
+  // Particles
+  const particleCount=300;
+  const particleGeo=new THREE.BufferGeometry();
+  const positions=new Float32Array(particleCount*3);
+  const colors=new Float32Array(particleCount*3);
+  const pColors=[new THREE.Color(0xff2244),new THREE.Color(0xff6600),new THREE.Color(0x00d4ff),new THREE.Color(0x00ff88),new THREE.Color(0xb000ff)];
+  for(let i=0;i<particleCount;i++){
+    positions[i*3]=(Math.random()-.5)*16;
+    positions[i*3+1]=(Math.random()-.5)*10;
+    positions[i*3+2]=(Math.random()-.5)*10-2;
+    const pc=pColors[Math.floor(Math.random()*pColors.length)];
+    colors[i*3]=pc.r;colors[i*3+1]=pc.g;colors[i*3+2]=pc.b;
+  }
+  particleGeo.setAttribute('position',new THREE.BufferAttribute(positions,3));
+  particleGeo.setAttribute('color',new THREE.BufferAttribute(colors,3));
+  const particleMat=new THREE.PointsMaterial({size:0.03,vertexColors:true,transparent:true,opacity:0.7,blending:THREE.AdditiveBlending});
+  const particles=new THREE.Points(particleGeo,particleMat);
+  scene.add(particles);
+
+  // Attack lines
+  const lineGroup=new THREE.Group();
+  scene.add(lineGroup);
+  function spawnAttackLine(){
+    const pts=[];
+    const start=new THREE.Vector3((Math.random()-.5)*8,(Math.random()-.5)*6,(Math.random()-.5)*4-2);
+    const end=new THREE.Vector3((Math.random()-.5)*8,(Math.random()-.5)*6,(Math.random()-.5)*4-2);
+    const mid=start.clone().lerp(end,.5);
+    mid.y+=Math.random()*2-1;
+    const curve=new THREE.QuadraticBezierCurve3(start,mid,end);
+    pts.push(...curve.getPoints(20));
+    const lineGeo=new THREE.BufferGeometry().setFromPoints(pts);
+    const lineMat=new THREE.LineBasicMaterial({color:Math.random()>.5?0xff2244:0x00ff88,transparent:true,opacity:0.4});
+    const line=new THREE.Line(lineGeo,lineMat);
+    lineGroup.add(line);
+    setTimeout(()=>{lineGroup.remove(line);lineGeo.dispose();lineMat.dispose()},2000);
+  }
+  setInterval(spawnAttackLine,800);
+
+  // Floating cubes
+  const cubes=[];
+  for(let i=0;i<8;i++){
+    const size=Math.random()*.3+.1;
+    const geo=new THREE.BoxGeometry(size,size,size);
+    const mat=new THREE.MeshBasicMaterial({color:pColors[Math.floor(Math.random()*pColors.length)],wireframe:true,transparent:true,opacity:0.2});
+    const mesh=new THREE.Mesh(geo,mat);
+    mesh.position.set((Math.random()-.5)*10,(Math.random()-.5)*8,(Math.random()-.5)*6-3);
+    mesh.userData={vx:(Math.random()-.5)*.005,vy:(Math.random()-.5)*.005,vz:(Math.random()-.5)*.005,rx:Math.random()*.02,ry:Math.random()*.02};
+    scene.add(mesh);
+    cubes.push(mesh);
+  }
+
+  function animate(){
+    requestAnimationFrame(animate);
+    const t=Date.now()*.001;
+    globe.rotation.y=t*.15;globe.rotation.x=t*.08;
+    innerGlobe.rotation.y=-t*.1;innerGlobe.rotation.z=t*.06;
+    globe.position.x=2.5+mouseX*.3;globe.position.y=-mouseY*.2;
+    innerGlobe.position.x=2.5+mouseX*.3;innerGlobe.position.y=-mouseY*.2;
+    particles.rotation.y=t*.02;particles.rotation.x=t*.01;
+    cubes.forEach(cube=>{
+      cube.rotation.x+=cube.userData.rx;cube.rotation.y+=cube.userData.ry;
+      cube.position.x+=cube.userData.vx;cube.position.y+=cube.userData.vy;
+      if(Math.abs(cube.position.x)>6)cube.userData.vx*=-1;
+      if(Math.abs(cube.position.y)>5)cube.userData.vy*=-1;
+    });
+    lineGroup.rotation.y=t*.01;
+    renderer.render(scene,camera);
+  }
+  animate();
+
+  window.addEventListener('resize',()=>{
+    camera.aspect=window.innerWidth/window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth,window.innerHeight);
+  });
+})();
+
+/* ── REVEAL ON SCROLL ── */
+const io=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.classList.add('visible');
+      e.target.querySelectorAll('.skill-bar-fill').forEach(b=>{
+        b.style.width=b.dataset.width+'%';
+      });
+      e.target.querySelectorAll('.counter-num').forEach(el=>{
+        const target=parseInt(el.dataset.count)||0;
+        const suf=el.dataset.suffix||'';
+        const pre=el.textContent.replace(/[0-9]/g,'');
+        if(target===0)return;
+        let cur=0;
+        const step=()=>{cur+=Math.ceil(target/40);if(cur>=target)cur=target;el.textContent=pre+cur+suf;if(cur<target)requestAnimationFrame(step)};
+        step();
+      });
+    }
+  });
+},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+/* ── CYBER LAB ── */
+(()=>{
+  const c=document.getElementById('lab-canvas');
+  if(!c)return;
+  const ctx=c.getContext('2d');
+  const W=c.offsetWidth||700,H=400;
+  c.width=W;c.height=H;
+
+  const labNodes=[
+    {id:'FW',label:'Firewall',x:W*.5,y:60,color:'#ff2244',type:'security'},
+    {id:'WEB',label:'Web Server',x:W*.25,y:160,color:'#00ff88',type:'server'},
+    {id:'API',label:'API Gateway',x:W*.5,y:160,color:'#00ff88',type:'server'},
+    {id:'DB',label:'Database',x:W*.75,y:160,color:'#00ff88',type:'server'},
+    {id:'ATK',label:'Attacker',x:W*.1,y:300,color:'#ff2244',type:'threat'},
+    {id:'BOT',label:'Bot Net',x:W*.35,y:300,color:'#ff6600',type:'threat'},
+    {id:'INT',label:'Internal',x:W*.65,y:300,color:'#00d4ff',type:'internal'},
+    {id:'ADM',label:'Admin',x:W*.9,y:300,color:'#b000ff',type:'admin'},
+  ];
+  const edges=[['FW','WEB'],['FW','API'],['FW','DB'],['ATK','WEB'],['BOT','API'],['INT','DB'],['ADM','FW']];
+  const attacks=[];
+
+  const nodeList=document.getElementById('lab-node-list');
+  labNodes.forEach(n=>{
+    const colors={security:'#ff2244',server:'#00ff88',threat:'#ff2244',internal:'#b0b0b0',admin:'#b000ff'};
+    nodeList.innerHTML+=`<div class="lab-node-item"><div class="lab-node-dot" style="background:${colors[n.type]||'#fff'}"></div>${n.id} — ${n.label}</div>`;
+  });
+
+  const attackLog=document.getElementById('lab-attacks');
+  const attackTypes=[
+    ['SQLi Attempt','high'],['XSS Probe','med'],['Port Scan','low'],['Brute Force','high'],['SSRF Test','med'],['RCE Attempt','high'],['IDOR Exploit','med'],['CSRF Attack','low']
+  ];
+  function addAttack(){
+    const [name,sev]=attackTypes[Math.floor(Math.random()*attackTypes.length)];
+    const src=labNodes.filter(n=>n.type==='threat');
+    const tgt=labNodes.filter(n=>n.type==='server');
+    const s=src[Math.floor(Math.random()*src.length)];
+    const t=tgt[Math.floor(Math.random()*tgt.length)];
+    attacks.push({sx:s.x,sy:s.y,tx:t.x,ty:t.y,p:0,speed:.008+Math.random()*.006,color:sev==='high'?'#ff2244':sev==='med'?'#ffcc00':'#00ff88'});
+    const row=document.createElement('div');
+    row.className='lab-attack-item';
+    row.innerHTML=`<span>${s.id}→${t.id}: ${name}</span><span class="lab-attack-status ${sev}">${sev.toUpperCase()}</span>`;
+    attackLog.appendChild(row);
+    if(attackLog.children.length>8)attackLog.removeChild(attackLog.children[1]);
+  }
+  setInterval(addAttack,2000);
+
+  function drawLab(){
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle='rgba(3,8,16,.98)';ctx.fillRect(0,0,W,H);
+    ctx.strokeStyle='rgba(255,34,68,.04)';ctx.lineWidth=1;
+    for(let x=0;x<W;x+=40){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke();}
+    for(let y=0;y<H;y+=40){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();}
+    edges.forEach(([a,b])=>{
+      const na=labNodes.find(n=>n.id===a),nb=labNodes.find(n=>n.id===b);
+      if(!na||!nb)return;
+      ctx.beginPath();ctx.moveTo(na.x,na.y);ctx.lineTo(nb.x,nb.y);
+      ctx.strokeStyle='rgba(255,34,68,.12)';ctx.lineWidth=1;ctx.stroke();
+    });
+    attacks.forEach((atk,i)=>{
+      atk.p+=atk.speed;
+      if(atk.p>1){attacks.splice(i,1);return;}
+      const x=atk.sx+(atk.tx-atk.sx)*atk.p;
+      const y=atk.sy+(atk.ty-atk.sy)*atk.p;
+      ctx.beginPath();ctx.arc(x,y,4,0,Math.PI*2);
+      ctx.fillStyle=atk.color;ctx.fill();
+      ctx.beginPath();ctx.arc(x,y,8,0,Math.PI*2);
+      ctx.strokeStyle=atk.color+'40';ctx.lineWidth=1;ctx.stroke();
+    });
+    labNodes.forEach(n=>{
+      ctx.beginPath();ctx.arc(n.x,n.y,16,0,Math.PI*2);
+      ctx.fillStyle=n.color+'15';ctx.fill();
+      ctx.strokeStyle=n.color;ctx.lineWidth=1.5;ctx.stroke();
+      ctx.beginPath();ctx.arc(n.x,n.y,4,0,Math.PI*2);
+      ctx.fillStyle=n.color;ctx.fill();
+      ctx.fillStyle=n.color;ctx.font='10px Share Tech Mono';
+      ctx.textAlign='center';ctx.fillText(n.id,n.x,n.y+30);
+    });
+    requestAnimationFrame(drawLab);
+  }
+  drawLab();
+})();
+
+/* ── TERMINAL ── */
+(()=>{
+  const body=document.getElementById('terminal-body');
+  const input=document.getElementById('terminal-input');
+  const cmds={
+    whoami:()=>[
+      {t:'info',v:'B0dj0x — Red Team Operator & Bug Bounty Hunter'},
+      {t:'',v:'Location: 127.0.0.1'},
+      {t:'',v:'Email: b0dj0x@proton.me'},
+      {t:'success',v:'Status: Available for engagements'},
+      {t:'',v:'Platforms: HackerOne | YesWeHack | Bugcrowd'},
+    ],
+    skills:()=>[
+      {t:'info',v:'Technical Skills:'},
+      {t:'',v:'  Security: Web App Pentesting, Network Security, Bug Bounty, Red Team'},
+      {t:'',v:'  Languages: Python, Bash, Go, C, C#, JS, PHP'},
+      {t:'',v:'  Tools: Caido, n8n, AWS, MySQL, GitHub, Metasploit'},
+      {t:'success',v:'  Platform: TryHackMe Top 1% Global'},
+    ],
+    projects:()=>[
+      {t:'info',v:'Open Source Projects:'},
+      {t:'',v:'  [1] b0d0rk      — Google Dorking Automation'},
+      {t:'',v:'  [2] b0dj0xscn   — Python Port Scanner'},
+      {t:'',v:'  [3] b0g0x       — Domain Vulnerability Scanner'},
+
+      {t:'',v:'  [5] black-book  — Cybersecurity Arsenal'},
+      {t:'info',v:'Platforms:'},
+      {t:'',v:'  [6] w0lfr00t.com    — Cybersecurity Community'},
+      {t:'',v:'  [7] w0lfr00tlabs    — CTF Challenge Platform'},
+      {t:'success',v:'GitHub: github.com/b0dj0x'},
+    ],
+    bounties:()=>[
+      {t:'info',v:'Bug Bounty Platforms:'},
+      {t:'',v:'  HackerOne:  https://hackerone.com/b0dj0x'},
+      {t:'',v:'  YesWeHack:  https://yeswehack.com/hunters/b0dj0x'},
+      {t:'',v:'  Bugcrowd:   https://bugcrowd.com/h/B0dj0x'},
+      {t:'success',v:'CVE Found: CVE-2025-0133 (Microsoft)'},
+    ],
+    contact:()=>[
+      {t:'info',v:'Contact & Social:'},
+      {t:'',v:'  Email:    b0dj0x@proton.me'},
+      {t:'',v:'  Telegram: t.me/b0dj0'},
+      {t:'',v:'  GitHub:   github.com/b0dj0x'},
+      {t:'',v:'  THM:      tryhackme.com/p/b0dj0x'},
+      {t:'',v:'  HTB:      profile.hackthebox.com/profile/019dee8a-3822-704d-9c13-1c84468f3b8d'},
+      {t:'',v:'  Medium:   medium.com/@b0dj0x'},
+      {t:'',v:'  YouTube:  youtube.com/@b0dj0x'},
+      {t:'',v:'  Dev.to:   dev.to/b0dj0x'},
+      {t:'',v:'  Reddit:   reddit.com/user/b0dj0x'},
+      {t:'',v:'  Substack: substack.com/@b0dj0x'},
+      {t:'',v:'  StackOverflow: stackoverflow.com/users/b0dj0x'},
+    ],
+    certs:()=>[
+      {t:'info',v:'Certifications:'},
+      {t:'success',v:'  ✓ TryHackMe: Jr Penetration Tester Path'},
+      {t:'warn',v:'  ● INE eJPT: In Progress'},
+      {t:'success',v:'  ✓ AWS Educate: Getting Started with Security'},
+      {t:'success',v:'  ✓ Harvard CS50'},
+      {t:'success',v:'  ✓ Microsoft SC-200: Sentinel'},
+      {t:'success',v:'  ✓ CCNA Networking (Course)'},
+    ],
+    help:()=>[
+      {t:'info',v:'Available Commands:'},
+      {t:'',v:'  whoami    — About me'},
+      {t:'',v:'  skills    — Technical skills'},
+      {t:'',v:'  projects  — My projects'},
+      {t:'',v:'  bounties  — Bug bounty platforms'},
+      {t:'',v:'  contact   — Contact info'},
+      {t:'',v:'  certs     — Certifications'},
+      {t:'',v:'  clear     — Clear terminal'},
+      {t:'warn',v:'  [EASTER EGG] Try: nmap localhost'},
+    ],
+    clear:()=>'CLEAR',
+    nmap:()=>[
+      {t:'info',v:'Starting Nmap 7.94 ( https://nmap.org )'},
+      {t:'',v:'Nmap scan report for localhost (127.0.0.1)'},
+      {t:'success',v:'Host is up (0.000012s latency).'},
+      {t:'',v:'PORT     STATE  SERVICE'},
+      {t:'success',v:'22/tcp   open   ssh'},
+      {t:'success',v:'80/tcp   open   http'},
+      {t:'success',v:'443/tcp  open   https'},
+      {t:'warn',v:'1337/tcp open   ???   [b0dj0x easter egg port]'},
+      {t:'',v:'Nmap done: 1 IP address (1 host up)'},
+    ],
+  };
+
+  function addLines(lines){
+    lines.forEach(l=>{
+      const d=document.createElement('div');
+      d.className='t-line';
+      const s=document.createElement('span');
+      s.className=`t-out${l.t?' '+l.t:''}`;
+      s.textContent=l.v;
+      d.appendChild(s);body.appendChild(d);
+    });
+    body.scrollTop=body.scrollHeight;
+  }
+
+  input.addEventListener('keydown',e=>{
+    if(e.key!=='Enter')return;
+    const val=input.value.trim().toLowerCase();
+    if(!val){return;}
+    const pd=document.createElement('div');pd.className='t-line';
+    pd.innerHTML=`<span class="t-prompt">b0dj0x@kali:~$</span><span class="t-cmd"> ${val}</span>`;
+    body.appendChild(pd);
+    input.value='';
+    const base=val.split(' ')[0];
+    if(cmds[base]){
+      const res=cmds[base]();
+      if(res==='CLEAR'){body.innerHTML='';return;}
+      addLines(res);
+    } else {
+      addLines([{t:'err',v:`bash: ${val}: command not found. Type 'help' for commands.`}]);
+    }
+    body.scrollTop=body.scrollHeight;
+  });
+})();
+
+/* ── CONTACT FORM ── */
+function submitForm(e){
+  e.preventDefault();
+  const msg=document.getElementById('form-success');
+  msg.style.display='block';
+  setTimeout(()=>msg.style.display='none',5000);
+  document.getElementById('contact-form').reset();
+}
+
+/* ── 3D TILT EFFECT ON CARDS ── */
+(()=>{
+  document.querySelectorAll('.tilt-card').forEach(card=>{
+    card.addEventListener('mousemove',e=>{
+      const rect=card.getBoundingClientRect();
+      const x=e.clientX-rect.left;
+      const y=e.clientY-rect.top;
+      const centerX=rect.width/2;
+      const centerY=rect.height/2;
+      const rotateX=(y-centerY)/centerY*-8;
+      const rotateY=(x-centerX)/centerX*8;
+      card.style.transform=`perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+    });
+    card.addEventListener('mouseleave',()=>{
+      card.style.transform='perspective(800px) rotateX(0) rotateY(0) scale(1)';
+    });
+  });
+})();
+
+/* ── SMOOTH SCROLL WITH MOMENTUM ── */
+(()=>{
+  let ticking=false;
+  window.addEventListener('scroll',()=>{
+    if(!ticking){
+      window.requestAnimationFrame(()=>{
+        ticking=false;
+      });
+      ticking=true;
+    }
+  });
+})();
+
+</script>
+{% endblock %}

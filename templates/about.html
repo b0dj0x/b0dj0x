@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+
+{% block title %}About B0dj0x | Cybersecurity Expert & Red Team Specialist{% endblock %}
+
+{% block description %}Learn about B0dj0x — offensive security specialist, Top 1% TryHackMe, bug bounty hunter, and red team operator. My story, skills, and mission in cybersecurity.{% endblock %}
+
+{% block canonical %}/about{% endblock %}
+
+{% block ogtitle %}About B0dj0x | Cybersecurity Expert{% endblock %}
+
+{% block ogdesc %}Offensive security specialist. Top 1% on TryHackMe. I break systems so they can be built stronger.{% endblock %}
+
+{% block ogurl %}/about{% endblock %}
+
+{% block ogtype %}profile{% endblock %}
+
+{% block head_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "B0dj0x",
+    "url": "https://b0dj0x.cc",
+    "jobTitle": "Cybersecurity Expert",
+    "description": "Offensive security specialist. Top 1% on TryHackMe. I break systems so they can be built stronger.",
+    "knowsAbout": ["Penetration Testing", "Bug Bounty", "Red Teaming", "Web Security", "Network Security", "OSINT"],
+    "sameAs": ["https://github.com/b0dj0x","https://x.com/b0dj0x","https://tryhackme.com/p/b0dj0x","https://profile.hackthebox.com/profile/019dee8a-3822-704d-9c13-1c84468f3b8d"]
+  }
+}
+</script>
+<style>
+:root{--c0:#030810;--c1:#060d1a;--c2:#0a1528;--c3:#0e1d35;--neon-blue:#00d4ff;--neon-cyan:#00fff5;--neon-green:#00ff88;--neon-purple:#b000ff;--neon-pink:#ff00aa;--neon-red:#ff2244;--neon-yellow:#ffcc00;--neon-orange:#ff6600;--glass:rgba(0,212,255,0.04);--glass-border:rgba(0,212,255,0.12);--text-primary:#e8f4ff;--text-muted:#6a8fa8;--text-dim:#2a4a5a;--font-mono:'Share Tech Mono',monospace;--font-orb:'Orbitron',monospace;--font-raj:'Rajdhani',sans-serif;--transition:cubic-bezier(0.23,1,0.32,1)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{background:var(--c0);color:var(--text-primary);font-family:var(--font-raj);overflow-x:hidden;line-height:1.6}
+a{color:var(--neon-cyan);text-decoration:none;transition:color .3s}
+a:hover{color:var(--neon-red)}
+.container{max-width:1200px;margin:0 auto;padding:0 40px}
+.page-hero{padding:140px 0 80px;text-align:center;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(255,34,68,.06) 0%,transparent 70%);pointer-events:none}
+.page-hero h1{font-family:var(--font-orb);font-size:clamp(32px,5vw,56px);font-weight:900;margin-bottom:16px;background:linear-gradient(135deg,#fff 20%,var(--neon-red) 50%,var(--neon-cyan));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.page-hero p{font-family:var(--font-raj);font-size:18px;color:var(--text-muted);max-width:600px;margin:0 auto;line-height:1.7}
+.breadcrumb{font-family:var(--font-mono);font-size:11px;color:var(--text-dim);letter-spacing:1px;margin-bottom:24px}
+.breadcrumb a{color:var(--text-muted)}
+.breadcrumb span{color:var(--neon-red)}
+section{padding:80px 0}
+.section-title{font-family:var(--font-orb);font-size:clamp(24px,3vw,36px);font-weight:700;margin-bottom:16px}
+.section-title span{color:var(--neon-red)}
+.section-sub{font-family:var(--font-raj);font-size:16px;color:var(--text-muted);max-width:600px;line-height:1.7;margin-bottom:48px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.about-text p{font-size:17px;color:var(--text-muted);margin-bottom:20px;line-height:1.8}
+.about-text strong{color:var(--neon-cyan)}
+.skill-tag{display:inline-block;font-family:var(--font-mono);font-size:11px;letter-spacing:1px;color:var(--neon-red);background:rgba(255,34,68,.08);border:1px solid rgba(255,34,68,.2);border-radius:20px;padding:6px 16px;margin:4px;transition:all .3s}
+.skill-tag:hover{background:rgba(255,34,68,.15);border-color:var(--neon-red)}
+.timeline{position:relative;padding-left:32px}
+.timeline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(var(--neon-red),var(--neon-purple),transparent)}
+.timeline-item{margin-bottom:40px;position:relative}
+.timeline-item::before{content:'';position:absolute;left:-37px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--neon-red);box-shadow:0 0 12px rgba(255,34,68,.4)}
+.timeline-item h3{font-family:var(--font-orb);font-size:16px;color:var(--neon-cyan);margin-bottom:4px}
+.timeline-item .date{font-family:var(--font-mono);font-size:11px;color:var(--neon-red);letter-spacing:1px;margin-bottom:8px}
+.timeline-item p{font-size:15px;color:var(--text-muted);line-height:1.7}
+@media(max-width:768px){
+  .container{padding:0 16px}
+  .about-grid{grid-template-columns:1fr;gap:40px}
+  .page-hero{padding:100px 0 40px}
+  section{padding:40px 0}
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<header class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">Home</a> / <span>About</span></div>
+    <h1>About B0dj0x</h1>
+    <p>Offensive security specialist. I break systems so they can be built stronger.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="section-title">Who <span>Am I</span></h2>
+        <p>I'm <strong>B0dj0x</strong> — a cybersecurity researcher and red team operator focused on offensive security, bug bounty hunting, and vulnerability research.</p>
+        <p>Ranked in the <strong>Top 1% globally on TryHackMe</strong>, I specialize in discovering critical vulnerabilities across web applications, APIs, and network infrastructure. My work spans penetration testing, red team operations, OSINT, and full-chain exploit development.</p>
+        <p>I've reported vulnerabilities to major platforms including <strong>HackerOne</strong>, <strong>Bugcrowd</strong>, and <strong>YesWeHack</strong>, and I'm credited for discovering <strong>CVE-2025-0133</strong> (Microsoft). I actively contribute to the security community through write-ups, CTF challenges, and open-source tools.</p>
+        <p>When I'm not hunting bugs, I'm building security tools, competing in CTFs, or teaching others how to think like an attacker — because understanding offense is the best defense.</p>
+      </div>
+      <div>
+        <h2 class="section-title">Core <span>Skills</span></h2>
+        <div style="margin-bottom:40px">
+          <div class="skill-tag">Penetration Testing</div>
+          <div class="skill-tag">Bug Bounty</div>
+          <div class="skill-tag">Red Teaming</div>
+          <div class="skill-tag">Web Security</div>
+          <div class="skill-tag">Network Security</div>
+          <div class="skill-tag">OSINT</div>
+          <div class="skill-tag">Python</div>
+          <div class="skill-tag">Bash</div>
+          <div class="skill-tag">Metasploit</div>
+          <div class="skill-tag">Burp Suite</div>
+          <div class="skill-tag">Nmap</div>
+          <div class="skill-tag">SQL Injection</div>
+          <div class="skill-tag">XSS</div>
+          <div class="skill-tag">SSRF</div>
+          <div class="skill-tag">LFI/RFI</div>
+          <div class="skill-tag">Active Directory</div>
+          <div class="skill-tag">Linux</div>
+          <div class="skill-tag">Windows</div>
+        </div>
+        <h2 class="section-title">Mission</h2>
+        <p class="section-sub">Make the internet safer by finding and fixing vulnerabilities before malicious actors can exploit them. Every bug found is a system protected.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--c1)">
+  <div class="container">
+    <h2 class="section-title">Experience <span>Timeline</span></h2>
+    <p class="section-sub">Key milestones in my cybersecurity journey.</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>CVE-2025-0133 Discovery</h3>
+        <div class="date">2025</div>
+        <p>Credited by Microsoft for discovering a critical vulnerability. Published advisory and proof-of-concept.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Top 1% TryHackMe</h3>
+        <div class="date">2024 — Present</div>
+        <p>Achieved global ranking in the top 1% on TryHackMe, completing advanced offensive security paths and rooms.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Bug Bounty Hunter</h3>
+        <div class="date">2023 — Present</div>
+        <p>Active hunter on HackerOne, Bugcrowd, and YesWeHack. Specializing in web application security and API testing.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Red Team Operations</h3>
+        <div class="date">2023 — Present</div>
+        <p>Conducting full-scope red team engagements including social engineering, physical security, and network exploitation.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Open Source Security Tools</h3>
+        <div class="date">2022 — Present</div>
+        <p>Building and maintaining open-source security tools including scanners, automation frameworks, and OSINT utilities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
