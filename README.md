@@ -90,6 +90,11 @@
 | [**DDOSB0DJ0X**](https://github.com/b0dj0x/ddosb0dj0x) | HTTP Stress Testing Tool | `Python` `HTTP` |
 | [**w0lfr00t.com**](https://w0lfr00t.com) | Cybersecurity Community Platform | `Web` `Community` |
 | [**w0lfr00tlabs**](https://w0lfr00tlabs.com) | CTF Challenge Platform | `CTF` `Platform` |
+| [**B0dj0x Toolkit**](https://toolkit.b0dj0x.cc/) | 111 free bug bounty & security testing tools | `Flask` `AI` `Web` |
+| [**Recon Lens**](https://reconlens.b0dj0x.cc/) | Automated recon & attack surface discovery | `Recon` `OSINT` `Web` |
+| [**w0lfr00t**](https://w0lfr00t.b0dj0x.cc/) | Multi-purpose cyber security toolkit | `Security` `OSINT` `Web` |
+| [**L3AK**](https://l3ak.b0dj0x.cc/) | Library of Leaks — query 28M+ entities | `Leak` `Flask` `Tor` |
+| [**Phontom**](https://phontom.b0dj0x.cc/) | Identity & infrastructure OPSEC toolkit | `OSINT` `Identity` `Privacy` |
 
 </div>
 
