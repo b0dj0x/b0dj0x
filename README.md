@@ -22,10 +22,10 @@
 
 | | |
 |---|---|
-| 🎯 **Role** | CEO w0lfr00t & w0lfr00tlabs · Red Team Operator · Bug Bounty Hunter |
+| 🎯 **Role** | CEO w0lfr00t & w0lfr00tlabs · Red Team Operator · Bug Bounty Hunter · Web Developer & Network Engineer |
 | 🏆 **Ranking** | **Top 1%** on TryHackMe globally |
 | 🐛 **CVEs** | CVE-2025-0133 (Microsoft) |
-| 🛠 **Focus** | Offensive Security, Web App Pentesting, OSINT |
+| 🛠 **Focus** | Offensive Security, Web App Pentesting, OSINT, Full-Stack Development, Network Engineering, Blockchain |
 | 🎓 **Education** | Science & Technology — USDB University |
 | 📍 **Location** | `127.0.0.1` |
 
@@ -45,6 +45,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 
 ![Nmap](https://img.shields.io/badge/Nmap-468C5C?style=for-the-badge&logo=nmap&logoColor=white)
 ![Metasploit](https://img.shields.io/badge/Metasploit-212C42?style=for-the-badge&logo=metasploit&logoColor=white)
@@ -95,6 +96,8 @@
 | [**w0lfr00t**](https://w0lfr00t.b0dj0x.cc/) | Multi-purpose cyber security toolkit | `Security` `OSINT` `Web` |
 | [**L3AK**](https://l3ak.b0dj0x.cc/) | Library of Leaks — query 28M+ entities | `Leak` `Flask` `Tor` |
 | [**Phontom**](https://phontom.b0dj0x.cc/) | Identity & infrastructure OPSEC toolkit | `OSINT` `Identity` `Privacy` |
+| [**B0dj0x Blog**](https://blog.b0dj0x.cc/) | Security research, write-ups & tutorials | `Blog` `Research` `OSINT` |
+| [**w0lfr00t**](https://w0lfr00t.vercel.app) | Next-gen cybersecurity platform (upcoming) | `Upcoming` `Platform` `Community` |
 
 </div>
 
@@ -113,6 +116,8 @@
 | 🟡 **HackTheBox** | [profile.hackthebox.com](https://profile.hackthebox.com/profile/019dee8a-3822-704d-9c13-1c84468f3b8d) |
 | 🐺 **w0lfr00t.com** | [w0lfr00t.com](https://w0lfr00t.com) |
 | 🔬 **w0lfr00tlabs** | [w0lfr00tlabs.com](https://w0lfr00tlabs.com) |
+| 📝 **Blog** | [blog.b0dj0x.cc](https://blog.b0dj0x.cc/) |
+| 🚀 **w0lfr00t (upcoming)** | [w0lfr00t.vercel.app](https://w0lfr00t.vercel.app) |
 
 </div>
 
@@ -129,6 +134,13 @@
 ![Harvard](https://img.shields.io/badge/Harvard-CS50-A51C30?style=for-the-badge&logo=harvard&logoColor=white)
 ![Microsoft](https://img.shields.io/badge/Microsoft-SC200+Sentinel-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco-CCNA-049FD9?style=for-the-badge&logo=cisco&logoColor=white)
+![Simplilearn](https://img.shields.io/badge/Simplilearn-Cybersecurity-FF6D00?style=for-the-badge&logoColor=white)
+![Cyfrin](https://img.shields.io/badge/Cyfrin+Updraft-Blockchain-4B0082?style=for-the-badge&logo=solidity&logoColor=white)
+![Hackviser](https://img.shields.io/badge/Hackviser-Core-00C853?style=for-the-badge&logoColor=white)
+![HackerRank](https://img.shields.io/badge/HackerRank-Software+Engineer-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
+![OpenLearn](https://img.shields.io/badge/OpenLearn-Cybersecurity-004C7C?style=for-the-badge&logoColor=white)
+![AdventOfCyber](https://img.shields.io/badge/TryHackMe-Advent+of+Cyber-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco+Networking+Academy-Ethical+Hacker-049FD9?style=for-the-badge&logo=cisco&logoColor=white)
 
 </div>
 
@@ -148,8 +160,9 @@
 |:---------------|:--------|
 | 🥇 Global **Top 1%** on TryHackMe | — |
 | 🐛 **CVE-2025-0133** Discovery (Microsoft) | 2025 |
-| 💼 First commercial web app sale | 11/09/2024 |
+| 💼 Official government website — APC Ahmer El Ain (Algerian Government) | 11/09/2024 |
 | 🏢 Enterprise network deployment — APC Sidi Ghilas | 12/2025 |
+| 💰 Employee salary management application | 2024 |
 | 🛠 **22+ Open Source Security Tools** built | 2024-2025 |
 | 🏢 **CEO w0lfr00t & w0lfr00tlabs** | 2024 |
 
